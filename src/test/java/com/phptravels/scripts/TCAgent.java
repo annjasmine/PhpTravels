@@ -115,7 +115,7 @@ public void verifyAFMyBookings() throws IOException, InterruptedException {
 	Thread.sleep(2000);
 	String expectedURL =AutomationConstants.URL4;
 	String actualURL =driver.getCurrentUrl();
-	System.out.println("Agent bookings: " +actualURL);
+	System.out.println("Agent Mybookings: " +actualURL);
 	Assert.assertEquals(expectedURL,actualURL);
 	
 	Thread.sleep(2000);

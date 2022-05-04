@@ -1,215 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="5" total="50" passed="42" failed="3" skipped="0">
+<testng-results ignored="0" total="13" passed="7" failed="6" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-29T12:00:32 IST" name="Suite" finished-at="2022-04-29T12:06:50 IST" duration-ms="378018">
+  <suite started-at="2022-05-04T14:36:20 IST" name="Suite" finished-at="2022-05-04T14:40:12 IST" duration-ms="232481">
     <groups>
     </groups>
-    <test started-at="2022-04-29T12:00:32 IST" name="Test" finished-at="2022-04-29T12:06:50 IST" duration-ms="378018">
-      <class name="com.phptravels.scripts.TCSupplier">
-        <test-method signature="verifyHomePage()[pri:1, instance:com.phptravels.scripts.TCSupplier@484970b0]" started-at="2022-04-29T12:05:22 IST" name="verifyHomePage" finished-at="2022-04-29T12:05:23 IST" duration-ms="57" status="PASS">
+    <test started-at="2022-05-04T14:36:20 IST" name="Test" finished-at="2022-05-04T14:40:12 IST" duration-ms="232481">
+      <class name="com.phptravels.scripts.TCAdmin">
+        <test-method is-config="true" signature="onSetup(java.lang.String)[pri:0, instance:com.phptravels.scripts.TCAdmin@5f8edcc5]" started-at="2022-05-04T14:36:20 IST" name="onSetup" finished-at="2022-05-04T14:36:27 IST" duration-ms="7150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onSetup -->
+        <test-method signature="verifyHomePage()[pri:1, instance:com.phptravels.scripts.TCAdmin@5f8edcc5]" started-at="2022-05-04T14:36:27 IST" name="verifyHomePage" finished-at="2022-05-04T14:36:27 IST" duration-ms="233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePage -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCSupplier@484970b0]" started-at="2022-04-29T12:05:23 IST" name="tearDown" finished-at="2022-04-29T12:05:23 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCAdmin@5f8edcc5]" started-at="2022-05-04T14:36:27 IST" name="tearDown" finished-at="2022-05-04T14:36:27 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyHomePage status=SUCCESS method=TCSupplier.verifyHomePage()[pri:1, instance:com.phptravels.scripts.TCSupplier@484970b0] output={null}]]]>
+                <![CDATA[[TestResult name=verifyHomePage status=SUCCESS method=TCAdmin.verifyHomePage()[pri:1, instance:com.phptravels.scripts.TCAdmin@5f8edcc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="verifySupplierFE()[pri:2, instance:com.phptravels.scripts.TCSupplier@484970b0]" started-at="2022-04-29T12:05:23 IST" name="verifySupplierFE" finished-at="2022-04-29T12:05:35 IST" duration-ms="12521" status="PASS">
+        <test-method signature="verifyAdminBE()[pri:2, instance:com.phptravels.scripts.TCAdmin@5f8edcc5]" started-at="2022-05-04T14:36:27 IST" name="verifyAdminBE" finished-at="2022-05-04T14:36:33 IST" duration-ms="6368" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySupplierFE -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCSupplier@484970b0]" started-at="2022-04-29T12:05:35 IST" name="tearDown" finished-at="2022-04-29T12:05:35 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- verifyAdminBE -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCAdmin@5f8edcc5]" started-at="2022-05-04T14:36:33 IST" name="tearDown" finished-at="2022-05-04T14:36:33 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifySupplierFE status=SUCCESS method=TCSupplier.verifySupplierFE()[pri:2, instance:com.phptravels.scripts.TCSupplier@484970b0] output={null}]]]>
+                <![CDATA[[TestResult name=verifyAdminBE status=SUCCESS method=TCAdmin.verifyAdminBE()[pri:2, instance:com.phptravels.scripts.TCAdmin@5f8edcc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="verifyNullSFLogin()[pri:3, instance:com.phptravels.scripts.TCSupplier@484970b0]" started-at="2022-04-29T12:05:35 IST" name="verifyNullSFLogin" finished-at="2022-04-29T12:05:39 IST" duration-ms="3968" status="PASS">
+        <test-method signature="verifyNullABLogin()[pri:3, instance:com.phptravels.scripts.TCAdmin@5f8edcc5]" started-at="2022-05-04T14:36:33 IST" name="verifyNullABLogin" finished-at="2022-05-04T14:36:36 IST" duration-ms="2480" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyNullSFLogin -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCSupplier@484970b0]" started-at="2022-04-29T12:05:39 IST" name="tearDown" finished-at="2022-04-29T12:05:39 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- verifyNullABLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCAdmin@5f8edcc5]" started-at="2022-05-04T14:36:36 IST" name="tearDown" finished-at="2022-05-04T14:36:36 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyNullSFLogin status=SUCCESS method=TCSupplier.verifyNullSFLogin()[pri:3, instance:com.phptravels.scripts.TCSupplier@484970b0] output={null}]]]>
+                <![CDATA[[TestResult name=verifyNullABLogin status=SUCCESS method=TCAdmin.verifyNullABLogin()[pri:3, instance:com.phptravels.scripts.TCAdmin@5f8edcc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="verifyInvalidSFEmail()[pri:4, instance:com.phptravels.scripts.TCSupplier@484970b0]" started-at="2022-04-29T12:05:39 IST" name="verifyInvalidSFEmail" finished-at="2022-04-29T12:05:47 IST" duration-ms="7972" status="PASS">
+        <test-method signature="verifyInvalidABEmail()[pri:4, instance:com.phptravels.scripts.TCAdmin@5f8edcc5]" started-at="2022-05-04T14:36:36 IST" name="verifyInvalidABEmail" finished-at="2022-05-04T14:36:44 IST" duration-ms="8063" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyInvalidSFEmail -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCSupplier@484970b0]" started-at="2022-04-29T12:05:47 IST" name="tearDown" finished-at="2022-04-29T12:05:47 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- verifyInvalidABEmail -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCAdmin@5f8edcc5]" started-at="2022-05-04T14:36:44 IST" name="tearDown" finished-at="2022-05-04T14:36:44 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyInvalidSFEmail status=SUCCESS method=TCSupplier.verifyInvalidSFEmail()[pri:4, instance:com.phptravels.scripts.TCSupplier@484970b0] output={null}]]]>
+                <![CDATA[[TestResult name=verifyInvalidABEmail status=SUCCESS method=TCAdmin.verifyInvalidABEmail()[pri:4, instance:com.phptravels.scripts.TCAdmin@5f8edcc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="verifyInvalidSFPass()[pri:5, instance:com.phptravels.scripts.TCSupplier@484970b0]" started-at="2022-04-29T12:05:47 IST" name="verifyInvalidSFPass" finished-at="2022-04-29T12:05:55 IST" duration-ms="8349" status="PASS">
+        <test-method signature="verifyInvalidABPass()[pri:5, instance:com.phptravels.scripts.TCAdmin@5f8edcc5]" started-at="2022-05-04T14:36:44 IST" name="verifyInvalidABPass" finished-at="2022-05-04T14:36:50 IST" duration-ms="5830" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyInvalidSFPass -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCSupplier@484970b0]" started-at="2022-04-29T12:05:55 IST" name="tearDown" finished-at="2022-04-29T12:05:55 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- verifyInvalidABPass -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCAdmin@5f8edcc5]" started-at="2022-05-04T14:36:50 IST" name="tearDown" finished-at="2022-05-04T14:36:50 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyInvalidSFPass status=SUCCESS method=TCSupplier.verifyInvalidSFPass()[pri:5, instance:com.phptravels.scripts.TCSupplier@484970b0] output={null}]]]>
+                <![CDATA[[TestResult name=verifyInvalidABPass status=SUCCESS method=TCAdmin.verifyInvalidABPass()[pri:5, instance:com.phptravels.scripts.TCAdmin@5f8edcc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="verifValidSupplierFE()[pri:6, instance:com.phptravels.scripts.TCSupplier@484970b0]" started-at="2022-04-29T12:05:55 IST" name="verifValidSupplierFE" finished-at="2022-04-29T12:06:07 IST" duration-ms="11417" status="PASS">
+        <test-method signature="verifValidAdminBE()[pri:6, instance:com.phptravels.scripts.TCAdmin@5f8edcc5]" started-at="2022-05-04T14:36:50 IST" name="verifValidAdminBE" finished-at="2022-05-04T14:36:57 IST" duration-ms="6798" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifValidSupplierFE -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCSupplier@484970b0]" started-at="2022-04-29T12:06:07 IST" name="tearDown" finished-at="2022-04-29T12:06:07 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- verifValidAdminBE -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCAdmin@5f8edcc5]" started-at="2022-05-04T14:36:57 IST" name="tearDown" finished-at="2022-05-04T14:36:57 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifValidSupplierFE status=SUCCESS method=TCSupplier.verifValidSupplierFE()[pri:6, instance:com.phptravels.scripts.TCSupplier@484970b0] output={null}]]]>
+                <![CDATA[[TestResult name=verifValidAdminBE status=SUCCESS method=TCAdmin.verifValidAdminBE()[pri:6, instance:com.phptravels.scripts.TCAdmin@5f8edcc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="verifySalesOverview()[pri:7, instance:com.phptravels.scripts.TCSupplier@484970b0]" started-at="2022-04-29T12:06:07 IST" name="verifySalesOverview" finished-at="2022-04-29T12:06:07 IST" duration-ms="168" status="PASS">
+        <test-method signature="verifyclickWebsite()[pri:7, instance:com.phptravels.scripts.TCAdmin@5f8edcc5]" started-at="2022-05-04T14:36:57 IST" name="verifyclickWebsite" finished-at="2022-05-04T14:37:03 IST" duration-ms="6638" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySalesOverview -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCSupplier@484970b0]" started-at="2022-04-29T12:06:07 IST" name="tearDown" finished-at="2022-04-29T12:06:07 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- verifyclickWebsite -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCAdmin@5f8edcc5]" started-at="2022-05-04T14:37:03 IST" name="tearDown" finished-at="2022-05-04T14:37:03 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifySalesOverview status=SUCCESS method=TCSupplier.verifySalesOverview()[pri:7, instance:com.phptravels.scripts.TCSupplier@484970b0] output={null}]]]>
+                <![CDATA[[TestResult name=verifyclickWebsite status=SUCCESS method=TCAdmin.verifyclickWebsite()[pri:7, instance:com.phptravels.scripts.TCAdmin@5f8edcc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="verifyRevenueBD()[pri:8, instance:com.phptravels.scripts.TCSupplier@484970b0]" started-at="2022-04-29T12:06:07 IST" name="verifyRevenueBD" finished-at="2022-04-29T12:06:07 IST" duration-ms="217" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRevenueBD -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCSupplier@484970b0]" started-at="2022-04-29T12:06:07 IST" name="tearDown" finished-at="2022-04-29T12:06:07 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyRevenueBD status=SUCCESS method=TCSupplier.verifyRevenueBD()[pri:8, instance:com.phptravels.scripts.TCSupplier@484970b0] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifyTours()[pri:9, instance:com.phptravels.scripts.TCSupplier@484970b0]" started-at="2022-04-29T12:06:07 IST" name="verifyTours" finished-at="2022-04-29T12:06:07 IST" duration-ms="81" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTours -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCSupplier@484970b0]" started-at="2022-04-29T12:06:07 IST" name="tearDown" finished-at="2022-04-29T12:06:07 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyTours status=SUCCESS method=TCSupplier.verifyTours()[pri:9, instance:com.phptravels.scripts.TCSupplier@484970b0] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifyBookings()[pri:10, instance:com.phptravels.scripts.TCSupplier@484970b0]" started-at="2022-04-29T12:06:07 IST" name="verifyBookings" finished-at="2022-04-29T12:06:07 IST" duration-ms="112" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyBookings -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCSupplier@484970b0]" started-at="2022-04-29T12:06:07 IST" name="tearDown" finished-at="2022-04-29T12:06:07 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyBookings status=SUCCESS method=TCSupplier.verifyBookings()[pri:10, instance:com.phptravels.scripts.TCSupplier@484970b0] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifyVisa()[pri:11, instance:com.phptravels.scripts.TCSupplier@484970b0]" started-at="2022-04-29T12:06:07 IST" name="verifyVisa" finished-at="2022-04-29T12:06:08 IST" duration-ms="249" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyVisa -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCSupplier@484970b0]" started-at="2022-04-29T12:06:08 IST" name="tearDown" finished-at="2022-04-29T12:06:08 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyVisa status=SUCCESS method=TCSupplier.verifyVisa()[pri:11, instance:com.phptravels.scripts.TCSupplier@484970b0] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifyFlight()[pri:12, instance:com.phptravels.scripts.TCSupplier@484970b0]" started-at="2022-04-29T12:06:08 IST" name="verifyFlight" finished-at="2022-04-29T12:06:08 IST" duration-ms="209" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyFlight -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCSupplier@484970b0]" started-at="2022-04-29T12:06:08 IST" name="tearDown" finished-at="2022-04-29T12:06:08 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyFlight status=SUCCESS method=TCSupplier.verifyFlight()[pri:12, instance:com.phptravels.scripts.TCSupplier@484970b0] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifyConfirmedBookings()[pri:13, instance:com.phptravels.scripts.TCSupplier@484970b0]" started-at="2022-04-29T12:06:08 IST" name="verifyConfirmedBookings" finished-at="2022-04-29T12:06:45 IST" duration-ms="37110" status="FAIL">
+        <test-method signature="verifyPaidBookings()[pri:8, instance:com.phptravels.scripts.TCAdmin@5f8edcc5]" started-at="2022-05-04T14:37:03 IST" name="verifyPaidBookings" finished-at="2022-05-04T14:37:33 IST" duration-ms="30066" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#booking_status"}
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Paid Bookings']"}
   (Session info: chrome=100.0.4896.127)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-0VG4TTE', ip: '172.20.16.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\annja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52218}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 4a5e15bd6f7fa373c6d3dbb67d08f62f
-*** Element info: {Using=id, value=booking_status}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\annja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1025099c1900dcc10e8d1cbdaa79161c
+*** Element info: {Using=xpath, value=//*[text()='Paid Bookings']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#booking_status"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Paid Bookings']"}
   (Session info: chrome=100.0.4896.127)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-0VG4TTE', ip: '172.20.16.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\annja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52218}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 4a5e15bd6f7fa373c6d3dbb67d08f62f
-*** Element info: {Using=id, value=booking_status}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\annja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1025099c1900dcc10e8d1cbdaa79161c
+*** Element info: {Using=xpath, value=//*[text()='Paid Bookings']}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -222,15 +158,366 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy15.getTagName(Unknown Source)
-at org.openqa.selenium.support.ui.Select.<init>(Select.java:45)
-at com.phptravels.pages.Supplier.statusDrpdn(Supplier.java:117)
-at com.phptravels.scripts.TCSupplier.verifyConfirmedBookings(TCSupplier.java:213)
+at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+at com.phptravels.pages.Admin.clickPaidBookings(Admin.java:96)
+at com.phptravels.scripts.TCAdmin.verifyPaidBookings(TCAdmin.java:144)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPaidBookings -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCAdmin@5f8edcc5]" started-at="2022-05-04T14:37:33 IST" name="tearDown" finished-at="2022-05-04T14:37:34 IST" duration-ms="996" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPaidBookings status=FAILURE method=TCAdmin.verifyPaidBookings()[pri:8, instance:com.phptravels.scripts.TCAdmin@5f8edcc5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyInvoice()[pri:9, instance:com.phptravels.scripts.TCAdmin@5f8edcc5]" started-at="2022-05-04T14:37:34 IST" name="verifyInvoice" finished-at="2022-05-04T14:38:04 IST" duration-ms="30046" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"i[class='fa fa-file']"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0VG4TTE', ip: '172.20.16.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\annja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1025099c1900dcc10e8d1cbdaa79161c
+*** Element info: {Using=css selector, value=i[class='fa fa-file']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"i[class='fa fa-file']"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0VG4TTE', ip: '172.20.16.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\annja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1025099c1900dcc10e8d1cbdaa79161c
+*** Element info: {Using=css selector, value=i[class='fa fa-file']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+at com.phptravels.pages.Admin.clickInvoice(Admin.java:99)
+at com.phptravels.scripts.TCAdmin.verifyInvoice(TCAdmin.java:157)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvoice -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCAdmin@5f8edcc5]" started-at="2022-05-04T14:38:04 IST" name="tearDown" finished-at="2022-05-04T14:38:05 IST" duration-ms="850" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyInvoice status=FAILURE method=TCAdmin.verifyInvoice()[pri:9, instance:com.phptravels.scripts.TCAdmin@5f8edcc5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifycancelledBookings()[pri:10, instance:com.phptravels.scripts.TCAdmin@5f8edcc5]" started-at="2022-05-04T14:38:05 IST" name="verifycancelledBookings" finished-at="2022-05-04T14:38:35 IST" duration-ms="30069" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"div[class='card card-raised border-start border-danger border-4 cancelled_']"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0VG4TTE', ip: '172.20.16.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\annja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1025099c1900dcc10e8d1cbdaa79161c
+*** Element info: {Using=css selector, value=div[class='card card-raised border-start border-danger border-4 cancelled_']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div[class='card card-raised border-start border-danger border-4 cancelled_']"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0VG4TTE', ip: '172.20.16.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\annja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1025099c1900dcc10e8d1cbdaa79161c
+*** Element info: {Using=css selector, value=div[class='card card-raised border-start border-danger border-4 cancelled_']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+at com.phptravels.pages.Admin.clickCnldBook(Admin.java:105)
+at com.phptravels.scripts.TCAdmin.verifycancelledBookings(TCAdmin.java:187)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycancelledBookings -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCAdmin@5f8edcc5]" started-at="2022-05-04T14:38:35 IST" name="tearDown" finished-at="2022-05-04T14:38:36 IST" duration-ms="937" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifycancelledBookings status=FAILURE method=TCAdmin.verifycancelledBookings()[pri:10, instance:com.phptravels.scripts.TCAdmin@5f8edcc5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifydeleteBookings()[pri:11, instance:com.phptravels.scripts.TCAdmin@5f8edcc5]" started-at="2022-05-04T14:38:36 IST" name="verifydeleteBookings" finished-at="2022-05-04T14:39:06 IST" duration-ms="30038" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"button[class='btn btn-danger mdc-ripple-upgraded']"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0VG4TTE', ip: '172.20.16.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\annja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1025099c1900dcc10e8d1cbdaa79161c
+*** Element info: {Using=css selector, value=button[class='btn btn-danger mdc-ripple-upgraded']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"button[class='btn btn-danger mdc-ripple-upgraded']"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0VG4TTE', ip: '172.20.16.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\annja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1025099c1900dcc10e8d1cbdaa79161c
+*** Element info: {Using=css selector, value=button[class='btn btn-danger mdc-ripple-upgraded']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+at com.phptravels.pages.Admin.clickDeletebtn(Admin.java:108)
+at com.phptravels.scripts.TCAdmin.verifydeleteBookings(TCAdmin.java:199)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifydeleteBookings -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCAdmin@5f8edcc5]" started-at="2022-05-04T14:39:06 IST" name="tearDown" finished-at="2022-05-04T14:39:07 IST" duration-ms="1148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifydeleteBookings status=FAILURE method=TCAdmin.verifydeleteBookings()[pri:11, instance:com.phptravels.scripts.TCAdmin@5f8edcc5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyConfirmedBookings()[pri:12, instance:com.phptravels.scripts.TCAdmin@5f8edcc5]" started-at="2022-05-04T14:39:07 IST" name="verifyConfirmedBookings" finished-at="2022-05-04T14:39:38 IST" duration-ms="30023" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"div[class='display-5']"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0VG4TTE', ip: '172.20.16.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\annja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1025099c1900dcc10e8d1cbdaa79161c
+*** Element info: {Using=css selector, value=div[class='display-5']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div[class='display-5']"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0VG4TTE', ip: '172.20.16.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\annja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1025099c1900dcc10e8d1cbdaa79161c
+*** Element info: {Using=css selector, value=div[class='display-5']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy15.getText(Unknown Source)
+at com.phptravels.pages.Admin.getCount(Admin.java:111)
+at com.phptravels.scripts.TCAdmin.verifyConfirmedBookings(TCAdmin.java:216)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -265,497 +552,40 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyConfirmedBookings -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCSupplier@484970b0]" started-at="2022-04-29T12:06:45 IST" name="tearDown" finished-at="2022-04-29T12:06:46 IST" duration-ms="832" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCAdmin@5f8edcc5]" started-at="2022-05-04T14:39:38 IST" name="tearDown" finished-at="2022-05-04T14:39:38 IST" duration-ms="956" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyConfirmedBookings status=FAILURE method=TCSupplier.verifyConfirmedBookings()[pri:13, instance:com.phptravels.scripts.TCSupplier@484970b0] output={null}]]]>
+                <![CDATA[[TestResult name=verifyConfirmedBookings status=FAILURE method=TCAdmin.verifyConfirmedBookings()[pri:12, instance:com.phptravels.scripts.TCAdmin@5f8edcc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.phptravels.scripts.TCSupplier@484970b0]" started-at="2022-04-29T12:06:46 IST" name="closeBrowser" finished-at="2022-04-29T12:06:50 IST" duration-ms="4336" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.phptravels.scripts.TCSupplier -->
-      <class name="com.phptravels.scripts.TCAgent">
-        <test-method signature="verifyHomePage()[pri:1, instance:com.phptravels.scripts.TCAgent@3e96bacf]" started-at="2022-04-29T12:02:44 IST" name="verifyHomePage" finished-at="2022-04-29T12:02:44 IST" duration-ms="61" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHomePage -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCAgent@3e96bacf]" started-at="2022-04-29T12:02:44 IST" name="tearDown" finished-at="2022-04-29T12:02:44 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyHomePage status=SUCCESS method=TCAgent.verifyHomePage()[pri:1, instance:com.phptravels.scripts.TCAgent@3e96bacf] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifyAgentFE()[pri:2, instance:com.phptravels.scripts.TCAgent@3e96bacf]" started-at="2022-04-29T12:02:44 IST" name="verifyAgentFE" finished-at="2022-04-29T12:02:52 IST" duration-ms="7459" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAgentFE -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCAgent@3e96bacf]" started-at="2022-04-29T12:02:52 IST" name="tearDown" finished-at="2022-04-29T12:02:52 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyAgentFE status=SUCCESS method=TCAgent.verifyAgentFE()[pri:2, instance:com.phptravels.scripts.TCAgent@3e96bacf] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifyNullCFLogin()[pri:3, instance:com.phptravels.scripts.TCAgent@3e96bacf]" started-at="2022-04-29T12:02:52 IST" name="verifyNullCFLogin" finished-at="2022-04-29T12:02:55 IST" duration-ms="3594" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyNullCFLogin -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCAgent@3e96bacf]" started-at="2022-04-29T12:02:55 IST" name="tearDown" finished-at="2022-04-29T12:02:55 IST" duration-ms="13" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyNullCFLogin status=SUCCESS method=TCAgent.verifyNullCFLogin()[pri:3, instance:com.phptravels.scripts.TCAgent@3e96bacf] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifyInvalidAFEmail()[pri:4, instance:com.phptravels.scripts.TCAgent@3e96bacf]" started-at="2022-04-29T12:02:55 IST" name="verifyInvalidAFEmail" finished-at="2022-04-29T12:03:05 IST" duration-ms="9374" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyInvalidAFEmail -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCAgent@3e96bacf]" started-at="2022-04-29T12:03:05 IST" name="tearDown" finished-at="2022-04-29T12:03:05 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyInvalidAFEmail status=SUCCESS method=TCAgent.verifyInvalidAFEmail()[pri:4, instance:com.phptravels.scripts.TCAgent@3e96bacf] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifyInvalidAFPass()[pri:5, instance:com.phptravels.scripts.TCAgent@3e96bacf]" started-at="2022-04-29T12:03:05 IST" name="verifyInvalidAFPass" finished-at="2022-04-29T12:03:12 IST" duration-ms="6672" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyInvalidAFPass -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCAgent@3e96bacf]" started-at="2022-04-29T12:03:12 IST" name="tearDown" finished-at="2022-04-29T12:03:12 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyInvalidAFPass status=SUCCESS method=TCAgent.verifyInvalidAFPass()[pri:5, instance:com.phptravels.scripts.TCAgent@3e96bacf] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifyValidAFLogin()[pri:6, instance:com.phptravels.scripts.TCAgent@3e96bacf]" started-at="2022-04-29T12:03:12 IST" name="verifyValidAFLogin" finished-at="2022-04-29T12:03:18 IST" duration-ms="6591" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyValidAFLogin -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCAgent@3e96bacf]" started-at="2022-04-29T12:03:18 IST" name="tearDown" finished-at="2022-04-29T12:03:18 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyValidAFLogin status=SUCCESS method=TCAgent.verifyValidAFLogin()[pri:6, instance:com.phptravels.scripts.TCAgent@3e96bacf] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifyAFMyBookings()[pri:7, instance:com.phptravels.scripts.TCAgent@3e96bacf]" started-at="2022-04-29T12:03:18 IST" name="verifyAFMyBookings" finished-at="2022-04-29T12:03:24 IST" duration-ms="5635" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAFMyBookings -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCAgent@3e96bacf]" started-at="2022-04-29T12:03:24 IST" name="tearDown" finished-at="2022-04-29T12:03:24 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyAFMyBookings status=SUCCESS method=TCAgent.verifyAFMyBookings()[pri:7, instance:com.phptravels.scripts.TCAgent@3e96bacf] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifyAFAddFunds()[pri:8, instance:com.phptravels.scripts.TCAgent@3e96bacf]" started-at="2022-04-29T12:03:24 IST" name="verifyAFAddFunds" finished-at="2022-04-29T12:03:29 IST" duration-ms="5688" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAFAddFunds -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCAgent@3e96bacf]" started-at="2022-04-29T12:03:29 IST" name="tearDown" finished-at="2022-04-29T12:03:29 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyAFAddFunds status=SUCCESS method=TCAgent.verifyAFAddFunds()[pri:8, instance:com.phptravels.scripts.TCAgent@3e96bacf] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifyAFMyProfile()[pri:9, instance:com.phptravels.scripts.TCAgent@3e96bacf]" started-at="2022-04-29T12:03:29 IST" name="verifyAFMyProfile" finished-at="2022-04-29T12:03:35 IST" duration-ms="5078" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAFMyProfile -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCAgent@3e96bacf]" started-at="2022-04-29T12:03:35 IST" name="tearDown" finished-at="2022-04-29T12:03:35 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyAFMyProfile status=SUCCESS method=TCAgent.verifyAFMyProfile()[pri:9, instance:com.phptravels.scripts.TCAgent@3e96bacf] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifyAFHome()[pri:10, instance:com.phptravels.scripts.TCAgent@3e96bacf]" started-at="2022-04-29T12:03:35 IST" name="verifyAFHome" finished-at="2022-04-29T12:03:43 IST" duration-ms="8168" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAFHome -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCAgent@3e96bacf]" started-at="2022-04-29T12:03:43 IST" name="tearDown" finished-at="2022-04-29T12:03:43 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyAFHome status=SUCCESS method=TCAgent.verifyAFHome()[pri:10, instance:com.phptravels.scripts.TCAgent@3e96bacf] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifyAFHotels()[pri:11, instance:com.phptravels.scripts.TCAgent@3e96bacf]" started-at="2022-04-29T12:03:43 IST" name="verifyAFHotels" finished-at="2022-04-29T12:03:49 IST" duration-ms="6190" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAFHotels -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCAgent@3e96bacf]" started-at="2022-04-29T12:03:49 IST" name="tearDown" finished-at="2022-04-29T12:03:49 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyAFHotels status=SUCCESS method=TCAgent.verifyAFHotels()[pri:11, instance:com.phptravels.scripts.TCAgent@3e96bacf] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifyAFHotelsbyCity()[pri:12, instance:com.phptravels.scripts.TCAgent@3e96bacf]" started-at="2022-04-29T12:03:49 IST" name="verifyAFHotelsbyCity" finished-at="2022-04-29T12:04:01 IST" duration-ms="11591" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [PHPTRAVELS | Travel Technology Partner - PHPTRAVELS] but found [Hotels in dubai - PHPTRAVELS]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [PHPTRAVELS | Travel Technology Partner - PHPTRAVELS] but found [Hotels in dubai - PHPTRAVELS]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at org.testng.Assert.assertEquals(Assert.java:639)
-at com.phptravels.scripts.TCAgent.verifyAFHotelsbyCity(TCAgent.java:186)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAFHotelsbyCity -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCAgent@3e96bacf]" started-at="2022-04-29T12:04:01 IST" name="tearDown" finished-at="2022-04-29T12:04:02 IST" duration-ms="987" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyAFHotelsbyCity status=FAILURE method=TCAgent.verifyAFHotelsbyCity()[pri:12, instance:com.phptravels.scripts.TCAgent@3e96bacf] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifyAFFlights()[pri:13, instance:com.phptravels.scripts.TCAgent@3e96bacf]" started-at="2022-04-29T12:04:02 IST" name="verifyAFFlights" finished-at="2022-04-29T12:04:09 IST" duration-ms="7579" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAFFlights -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCAgent@3e96bacf]" started-at="2022-04-29T12:04:09 IST" name="tearDown" finished-at="2022-04-29T12:04:09 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyAFFlights status=SUCCESS method=TCAgent.verifyAFFlights()[pri:13, instance:com.phptravels.scripts.TCAgent@3e96bacf] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifyAFTours()[pri:14, instance:com.phptravels.scripts.TCAgent@3e96bacf]" started-at="2022-04-29T12:04:09 IST" name="verifyAFTours" finished-at="2022-04-29T12:04:19 IST" duration-ms="9644" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAFTours -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCAgent@3e96bacf]" started-at="2022-04-29T12:04:19 IST" name="tearDown" finished-at="2022-04-29T12:04:19 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyAFTours status=SUCCESS method=TCAgent.verifyAFTours()[pri:14, instance:com.phptravels.scripts.TCAgent@3e96bacf] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifyAFVisa()[pri:15, instance:com.phptravels.scripts.TCAgent@3e96bacf]" started-at="2022-04-29T12:04:19 IST" name="verifyAFVisa" finished-at="2022-04-29T12:04:30 IST" duration-ms="11294" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAFVisa -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCAgent@3e96bacf]" started-at="2022-04-29T12:04:30 IST" name="tearDown" finished-at="2022-04-29T12:04:30 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyAFVisa status=SUCCESS method=TCAgent.verifyAFVisa()[pri:15, instance:com.phptravels.scripts.TCAgent@3e96bacf] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifyAFBlog()[pri:16, instance:com.phptravels.scripts.TCAgent@3e96bacf]" started-at="2022-04-29T12:04:30 IST" name="verifyAFBlog" finished-at="2022-04-29T12:04:54 IST" duration-ms="23792" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAFBlog -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCAgent@3e96bacf]" started-at="2022-04-29T12:04:54 IST" name="tearDown" finished-at="2022-04-29T12:04:54 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyAFBlog status=SUCCESS method=TCAgent.verifyAFBlog()[pri:16, instance:com.phptravels.scripts.TCAgent@3e96bacf] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifyAFOffers()[pri:17, instance:com.phptravels.scripts.TCAgent@3e96bacf]" started-at="2022-04-29T12:04:54 IST" name="verifyAFOffers" finished-at="2022-04-29T12:05:01 IST" duration-ms="6702" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAFOffers -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCAgent@3e96bacf]" started-at="2022-04-29T12:05:01 IST" name="tearDown" finished-at="2022-04-29T12:05:01 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyAFOffers status=SUCCESS method=TCAgent.verifyAFOffers()[pri:17, instance:com.phptravels.scripts.TCAgent@3e96bacf] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifyCurrency()[pri:18, instance:com.phptravels.scripts.TCAgent@3e96bacf]" started-at="2022-04-29T12:05:01 IST" name="verifyCurrency" finished-at="2022-04-29T12:05:11 IST" duration-ms="10818" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCurrency -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCAgent@3e96bacf]" started-at="2022-04-29T12:05:11 IST" name="tearDown" finished-at="2022-04-29T12:05:11 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyCurrency status=SUCCESS method=TCAgent.verifyCurrency()[pri:18, instance:com.phptravels.scripts.TCAgent@3e96bacf] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifyAFLogout()[pri:19, instance:com.phptravels.scripts.TCAgent@3e96bacf]" started-at="2022-04-29T12:05:11 IST" name="verifyAFLogout" finished-at="2022-04-29T12:05:20 IST" duration-ms="8593" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAFLogout -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCAgent@3e96bacf]" started-at="2022-04-29T12:05:20 IST" name="tearDown" finished-at="2022-04-29T12:05:20 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyAFLogout status=SUCCESS method=TCAgent.verifyAFLogout()[pri:19, instance:com.phptravels.scripts.TCAgent@3e96bacf] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.phptravels.scripts.TCAgent@3e96bacf]" started-at="2022-04-29T12:05:20 IST" name="closeBrowser" finished-at="2022-04-29T12:05:22 IST" duration-ms="2425" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.phptravels.scripts.TCAgent -->
-      <class name="com.phptravels.scripts.TCCustomer">
-        <test-method is-config="true" signature="onSetup(java.lang.String)[pri:0, instance:com.phptravels.scripts.TCCustomer@6236eb5f]" started-at="2022-04-29T12:00:32 IST" name="onSetup" finished-at="2022-04-29T12:00:44 IST" duration-ms="11737" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- onSetup -->
-        <test-method signature="verifyHomePage()[pri:1, instance:com.phptravels.scripts.TCCustomer@6236eb5f]" started-at="2022-04-29T12:00:44 IST" name="verifyHomePage" finished-at="2022-04-29T12:00:44 IST" duration-ms="298" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHomePage -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCCustomer@6236eb5f]" started-at="2022-04-29T12:00:44 IST" name="tearDown" finished-at="2022-04-29T12:00:44 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyHomePage status=SUCCESS method=TCCustomer.verifyHomePage()[pri:1, instance:com.phptravels.scripts.TCCustomer@6236eb5f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifyCustomerFE()[pri:2, instance:com.phptravels.scripts.TCCustomer@6236eb5f]" started-at="2022-04-29T12:00:44 IST" name="verifyCustomerFE" finished-at="2022-04-29T12:00:49 IST" duration-ms="4871" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCustomerFE -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCCustomer@6236eb5f]" started-at="2022-04-29T12:00:49 IST" name="tearDown" finished-at="2022-04-29T12:00:49 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyCustomerFE status=SUCCESS method=TCCustomer.verifyCustomerFE()[pri:2, instance:com.phptravels.scripts.TCCustomer@6236eb5f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifyNullCFLogin()[pri:3, instance:com.phptravels.scripts.TCCustomer@6236eb5f]" started-at="2022-04-29T12:00:49 IST" name="verifyNullCFLogin" finished-at="2022-04-29T12:00:54 IST" duration-ms="4307" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyNullCFLogin -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCCustomer@6236eb5f]" started-at="2022-04-29T12:00:54 IST" name="tearDown" finished-at="2022-04-29T12:00:54 IST" duration-ms="7" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyNullCFLogin status=SUCCESS method=TCCustomer.verifyNullCFLogin()[pri:3, instance:com.phptravels.scripts.TCCustomer@6236eb5f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifyInvalidCFEmail()[pri:4, instance:com.phptravels.scripts.TCCustomer@6236eb5f]" started-at="2022-04-29T12:00:54 IST" name="verifyInvalidCFEmail" finished-at="2022-04-29T12:01:10 IST" duration-ms="16513" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyInvalidCFEmail -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCCustomer@6236eb5f]" started-at="2022-04-29T12:01:10 IST" name="tearDown" finished-at="2022-04-29T12:01:10 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyInvalidCFEmail status=SUCCESS method=TCCustomer.verifyInvalidCFEmail()[pri:4, instance:com.phptravels.scripts.TCCustomer@6236eb5f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifyInvalidCFPass()[pri:5, instance:com.phptravels.scripts.TCCustomer@6236eb5f]" started-at="2022-04-29T12:01:10 IST" name="verifyInvalidCFPass" finished-at="2022-04-29T12:01:20 IST" duration-ms="9570" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyInvalidCFPass -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCCustomer@6236eb5f]" started-at="2022-04-29T12:01:20 IST" name="tearDown" finished-at="2022-04-29T12:01:20 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyInvalidCFPass status=SUCCESS method=TCCustomer.verifyInvalidCFPass()[pri:5, instance:com.phptravels.scripts.TCCustomer@6236eb5f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifyvalidCFLogin()[pri:6, instance:com.phptravels.scripts.TCCustomer@6236eb5f]" started-at="2022-04-29T12:01:20 IST" name="verifyvalidCFLogin" finished-at="2022-04-29T12:01:27 IST" duration-ms="7408" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyvalidCFLogin -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCCustomer@6236eb5f]" started-at="2022-04-29T12:01:27 IST" name="tearDown" finished-at="2022-04-29T12:01:27 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyvalidCFLogin status=SUCCESS method=TCCustomer.verifyvalidCFLogin()[pri:6, instance:com.phptravels.scripts.TCCustomer@6236eb5f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifyMyBookings()[pri:7, instance:com.phptravels.scripts.TCCustomer@6236eb5f]" started-at="2022-04-29T12:01:27 IST" name="verifyMyBookings" finished-at="2022-04-29T12:01:32 IST" duration-ms="5007" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyMyBookings -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCCustomer@6236eb5f]" started-at="2022-04-29T12:01:32 IST" name="tearDown" finished-at="2022-04-29T12:01:32 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyMyBookings status=SUCCESS method=TCCustomer.verifyMyBookings()[pri:7, instance:com.phptravels.scripts.TCCustomer@6236eb5f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifyVoucher()[pri:8, instance:com.phptravels.scripts.TCCustomer@6236eb5f]" started-at="2022-04-29T12:01:32 IST" name="verifyVoucher" finished-at="2022-04-29T12:02:02 IST" duration-ms="30076" status="FAIL">
+        <test-method signature="verifyBookings()[pri:13, instance:com.phptravels.scripts.TCAdmin@5f8edcc5]" started-at="2022-05-04T14:39:38 IST" name="verifyBookings" finished-at="2022-05-04T14:40:08 IST" duration-ms="30019" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"i[class*='la la-eye']"}
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"a[class='nav-link loadeffect']"}
   (Session info: chrome=100.0.4896.127)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-0VG4TTE', ip: '172.20.16.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\annja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52218}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 4a5e15bd6f7fa373c6d3dbb67d08f62f
-*** Element info: {Using=css selector, value=i[class*='la la-eye']}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\annja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1025099c1900dcc10e8d1cbdaa79161c
+*** Element info: {Using=css selector, value=a[class='nav-link loadeffect']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"i[class*='la la-eye']"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"a[class='nav-link loadeffect']"}
   (Session info: chrome=100.0.4896.127)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-0VG4TTE', ip: '172.20.16.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\annja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52218}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 4a5e15bd6f7fa373c6d3dbb67d08f62f
-*** Element info: {Using=css selector, value=i[class*='la la-eye']}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\annja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1025099c1900dcc10e8d1cbdaa79161c
+*** Element info: {Using=css selector, value=a[class='nav-link loadeffect']}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -774,8 +604,8 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
-at com.phptravels.pages.Customer.clickVoucher(Customer.java:97)
-at com.phptravels.scripts.TCCustomer.verifyVoucher(TCCustomer.java:133)
+at com.phptravels.pages.Admin.clickBookings(Admin.java:93)
+at com.phptravels.scripts.TCAdmin.verifyBookings(TCAdmin.java:131)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -809,102 +639,27 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyVoucher -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCCustomer@6236eb5f]" started-at="2022-04-29T12:02:02 IST" name="tearDown" finished-at="2022-04-29T12:02:03 IST" duration-ms="963" status="PASS">
+        </test-method> <!-- verifyBookings -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCAdmin@5f8edcc5]" started-at="2022-05-04T14:40:08 IST" name="tearDown" finished-at="2022-05-04T14:40:10 IST" duration-ms="1185" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyVoucher status=FAILURE method=TCCustomer.verifyVoucher()[pri:8, instance:com.phptravels.scripts.TCCustomer@6236eb5f] output={null}]]]>
+                <![CDATA[[TestResult name=verifyBookings status=FAILURE method=TCAdmin.verifyBookings()[pri:13, instance:com.phptravels.scripts.TCAdmin@5f8edcc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="verifyAddFunds()[pri:9, instance:com.phptravels.scripts.TCCustomer@6236eb5f]" started-at="2022-04-29T12:02:03 IST" name="verifyAddFunds" finished-at="2022-04-29T12:02:08 IST" duration-ms="4776" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAddFunds -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCCustomer@6236eb5f]" started-at="2022-04-29T12:02:08 IST" name="tearDown" finished-at="2022-04-29T12:02:08 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyAddFunds status=SUCCESS method=TCCustomer.verifyAddFunds()[pri:9, instance:com.phptravels.scripts.TCCustomer@6236eb5f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifyPaybyPayPal()[pri:10, instance:com.phptravels.scripts.TCCustomer@6236eb5f]" started-at="2022-04-29T12:02:08 IST" name="verifyPaybyPayPal" finished-at="2022-04-29T12:02:16 IST" duration-ms="8227" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPaybyPayPal -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCCustomer@6236eb5f]" started-at="2022-04-29T12:02:16 IST" name="tearDown" finished-at="2022-04-29T12:02:16 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyPaybyPayPal status=SUCCESS method=TCCustomer.verifyPaybyPayPal()[pri:10, instance:com.phptravels.scripts.TCCustomer@6236eb5f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifyMyProfile()[pri:12, instance:com.phptravels.scripts.TCCustomer@6236eb5f]" started-at="2022-04-29T12:02:16 IST" name="verifyMyProfile" finished-at="2022-04-29T12:02:30 IST" duration-ms="13523" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyMyProfile -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCCustomer@6236eb5f]" started-at="2022-04-29T12:02:30 IST" name="tearDown" finished-at="2022-04-29T12:02:30 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyMyProfile status=SUCCESS method=TCCustomer.verifyMyProfile()[pri:12, instance:com.phptravels.scripts.TCCustomer@6236eb5f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifyAddress()[pri:13, instance:com.phptravels.scripts.TCCustomer@6236eb5f]" started-at="2022-04-29T12:02:30 IST" name="verifyAddress" finished-at="2022-04-29T12:02:36 IST" duration-ms="5976" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAddress -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCCustomer@6236eb5f]" started-at="2022-04-29T12:02:36 IST" name="tearDown" finished-at="2022-04-29T12:02:36 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyAddress status=SUCCESS method=TCCustomer.verifyAddress()[pri:13, instance:com.phptravels.scripts.TCCustomer@6236eb5f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="verifyLogout()[pri:14, instance:com.phptravels.scripts.TCCustomer@6236eb5f]" started-at="2022-04-29T12:02:36 IST" name="verifyLogout" finished-at="2022-04-29T12:02:40 IST" duration-ms="3786" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLogout -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravels.scripts.TCCustomer@6236eb5f]" started-at="2022-04-29T12:02:40 IST" name="tearDown" finished-at="2022-04-29T12:02:40 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyLogout status=SUCCESS method=TCCustomer.verifyLogout()[pri:14, instance:com.phptravels.scripts.TCCustomer@6236eb5f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.phptravels.scripts.TCCustomer@6236eb5f]" started-at="2022-04-29T12:02:40 IST" name="closeBrowser" finished-at="2022-04-29T12:02:44 IST" duration-ms="4798" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.phptravels.scripts.TCAdmin@5f8edcc5]" started-at="2022-05-04T14:40:10 IST" name="closeBrowser" finished-at="2022-05-04T14:40:12 IST" duration-ms="2381" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.phptravels.scripts.TCCustomer@6236eb5f]" started-at="2022-04-29T12:06:50 IST" name="quitBrowser" finished-at="2022-04-29T12:06:50 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.phptravels.scripts.TCAdmin@5f8edcc5]" started-at="2022-05-04T14:40:12 IST" name="quitBrowser" finished-at="2022-05-04T14:40:12 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
-      </class> <!-- com.phptravels.scripts.TCCustomer -->
+      </class> <!-- com.phptravels.scripts.TCAdmin -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

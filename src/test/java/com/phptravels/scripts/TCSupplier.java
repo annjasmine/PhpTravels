@@ -31,10 +31,10 @@ public void verifyHomePage() throws IOException, InterruptedException {
 	Assert.assertEquals(expectedTitle,actualTitle);
 	}
 @Test(priority=2)
-public void verifySupplierFE() throws IOException, InterruptedException {
+public void verifySupplierBE() throws IOException, InterruptedException {
 
 	objSupplier= new Supplier(driver);
-	objSupplier.clickSupplierFE();
+	objSupplier.clickSupplierBE();
 	Thread.sleep(2000);
 	
 	for(String winHandle : driver.getWindowHandles())
@@ -49,7 +49,7 @@ public void verifySupplierFE() throws IOException, InterruptedException {
 	}
 
 @Test(priority=3)
-			public void verifyNullSFLogin() throws IOException, InterruptedException {
+			public void verifyNullSBLogin() throws IOException, InterruptedException {
 			
 			objSupplier= new Supplier(driver);
 			objSupplier.clickSupplierLogin();
@@ -63,7 +63,7 @@ public void verifySupplierFE() throws IOException, InterruptedException {
 			}}}
 
 @Test(priority=4)
-			public void verifyInvalidSFEmail() throws IOException, InterruptedException {
+			public void verifyInvalidSBEmail() throws IOException, InterruptedException {
 			
 			objSupplier= new Supplier(driver);
 			String supplieremail = ExcelUtility.getCellData(6, 3);
@@ -80,7 +80,7 @@ public void verifySupplierFE() throws IOException, InterruptedException {
 			Assert.assertEquals(expectedErrorMessage,actualErrorMessage);
 			}
 		@Test(priority=5)
-		public void verifyInvalidSFPass() throws IOException, InterruptedException {
+		public void verifyInvalidSBPass() throws IOException, InterruptedException {
 		
 		objSupplier= new Supplier(driver);
 		
@@ -102,7 +102,7 @@ public void verifySupplierFE() throws IOException, InterruptedException {
 		Assert.assertEquals(expectedErrorMessage,actualErrorMessage);
 		}
 		@Test(priority=6)
-		public void verifValidSupplierFE() throws IOException, InterruptedException {
+		public void verifValidSupplierBE() throws IOException, InterruptedException {
 		
 		objSupplier= new Supplier(driver);
 		objSupplier.clearEmail();
@@ -139,7 +139,7 @@ public void verifySupplierFE() throws IOException, InterruptedException {
 		
 		String expectedTXT=AutomationConstants.TXT2;
 		Assert.assertEquals(expectedTXT,objSupplier.getSales());
-		System.out.println("Supplier FE: " +objSupplier.getSales()+" is displayed.");
+		System.out.println("Supplier BE: " +objSupplier.getSales()+" is displayed.");
 		}
 		
 		@Test(priority=8)
@@ -159,7 +159,7 @@ public void verifySupplierFE() throws IOException, InterruptedException {
 		
 		if (objSupplier.clickTours()) {
 			
-			System.out.println("Supplier FE:Tours displayed and Clickable");
+			System.out.println("Supplier BE:Tours displayed and Clickable");
 		}else {
 			System.out.println("Tours Not Clickable");
 		}
@@ -168,9 +168,9 @@ public void verifySupplierFE() throws IOException, InterruptedException {
 		public void verifyBookings() throws IOException, InterruptedException {
 		
 		objSupplier= new Supplier(driver);
+		
 		if (objSupplier.clickBookings()) {
-			
-			System.out.println("Supplier FE Bookings displayed and Clickable");
+			System.out.println("Supplier BE Bookings displayed and Clickable");
 		}else {
 			System.out.println("Bookings Not Clickable");
 		}
@@ -181,10 +181,10 @@ public void verifySupplierFE() throws IOException, InterruptedException {
 		objSupplier= new Supplier(driver);
 		String v = "visa";
 	    
-	    if ( driver.getPageSource().contains("visa")){
-	       System.out.println("Supplier FE: Module: " + v + " is displayed. ");
+	    if ( driver.getPageSource().contains(v)){
+	       System.out.println("Supplier BE: Module: " + v + " is displayed. ");
 	    } else {
-	       System.out.println("Supplier FE: Module: " + v + " is not displayed. ");
+	       System.out.println("Supplier BE: Module: " + v + " is not displayed. ");
 	    }
 	 }
 		@Test(priority=12)
@@ -193,10 +193,10 @@ public void verifySupplierFE() throws IOException, InterruptedException {
 		objSupplier= new Supplier(driver);
 		String f = "flight";
 	    
-	    if ( driver.getPageSource().contains("flight")){
-	       System.out.println("Supplier FE: Module: " + f + " is displayed. ");
+	    if ( driver.getPageSource().contains(f)){
+	       System.out.println("Supplier BE: Module: " + f + " is displayed. ");
 	    } else {
-	       System.out.println("Supplier FE: Module: " + f + " is not displayed. ");
+	       System.out.println("Supplier BE: Module: " + f + " is not displayed. ");
 	    }
 		}
 		@Test(priority=13)
@@ -222,7 +222,7 @@ public void verifySupplierFE() throws IOException, InterruptedException {
 		System.out.println("Final count: "+finalcount);
 		
 		if(fcount > icount){
-		    System.out.println("Supplier FE: Confirmed bookings incremented");
+		    System.out.println("Supplier BE: Confirmed bookings incremented");
 		}else{
 		    System.out.println("Confirmed bookings not incremented");
 		}

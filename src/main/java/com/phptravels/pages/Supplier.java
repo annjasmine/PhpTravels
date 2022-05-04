@@ -54,16 +54,14 @@ public class Supplier {
     
     @FindBy(id="booking_status")
     private WebElement status;
-    		
-   // @FindBy(id="booking_status")
-    private WebElement confirmed;
+ 
     
     public Supplier(WebDriver driver){
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 		}
 
-		public void clickSupplierFE(){ 
+		public void clickSupplierBE(){ 
 			supplierfe.click();
 		 }
 		public void clickSupplierLogin(){ 

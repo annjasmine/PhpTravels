@@ -4,33 +4,20 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.phptravels.scripts.TCSupplier">
+      <class name="com.phptravels.scripts.TCAdmin">
         <methods>
           <include name="quitBrowser"/>
           <include name="closeBrowser"/>
           <include name="onSetup"/>
           <include name="verifyConfirmedBookings"/>
+          <include name="verifyBookings"/>
+          <include name="verifyInvoice"/>
+          <include name="verifycancelledBookings"/>
+          <include name="verifydeleteBookings"/>
           <include name="tearDown"/>
+          <include name="verifyPaidBookings"/>
         </methods>
-      </class> <!-- com.phptravels.scripts.TCSupplier -->
-      <class name="com.phptravels.scripts.TCAgent">
-        <methods>
-          <include name="quitBrowser"/>
-          <include name="closeBrowser"/>
-          <include name="onSetup"/>
-          <include name="tearDown"/>
-          <include name="verifyAFHotelsbyCity"/>
-        </methods>
-      </class> <!-- com.phptravels.scripts.TCAgent -->
-      <class name="com.phptravels.scripts.TCCustomer">
-        <methods>
-          <include name="quitBrowser"/>
-          <include name="closeBrowser"/>
-          <include name="onSetup"/>
-          <include name="verifyVoucher"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.phptravels.scripts.TCCustomer -->
+      </class> <!-- com.phptravels.scripts.TCAdmin -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

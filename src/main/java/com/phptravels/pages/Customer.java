@@ -53,7 +53,10 @@ public class Customer {
     private WebElement success;
     
     @FindBy(css="i[class*='la la-power-off mr-2 text-color-6']")
-    private WebElement logout;		
+    private WebElement logout;	
+    
+    @FindBy(xpath="//*[text()='Booking Invoice                            ']")
+	 private WebElement vouchertitle;
    
     		public Customer(WebDriver driver){
     		this.driver = driver;
@@ -127,5 +130,7 @@ public class Customer {
 	 public void clickLogout(){
 		 logout.click();
 	 }
-
+	 public String getInvoice() {
+		    return vouchertitle.getText();
+	 }
 }

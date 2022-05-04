@@ -3,6 +3,7 @@ package com.phptravels.scripts;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.safari.SafariDriver.WindowType;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -22,7 +23,7 @@ public class TCCustomer extends TestBase {
 	
 	String expectedTitle=AutomationConstants.HOMEPAGETITLE;
 	String actualTitle =driver.getTitle();
-	System.out.println("Title of the page Loaded is "+actualTitle);
+	System.out.println("Title of the Landing Page: "+actualTitle);
 	Assert.assertEquals(expectedTitle,actualTitle);
 	}
 	
@@ -110,7 +111,7 @@ public class TCCustomer extends TestBase {
 	
 	String expectedURL =AutomationConstants.URL3;
 	String actualURL =driver.getCurrentUrl();
-	System.out.println("Customer Login Successful - " +actualURL);
+	System.out.println("Customer Login Successful: " +actualURL);
 	Assert.assertEquals(expectedURL,actualURL);
 	}
 
@@ -119,9 +120,10 @@ public class TCCustomer extends TestBase {
 	
 	objCustomer.clickMyBookings();
 	Thread.sleep(2000);
+	
 	String expectedURL =AutomationConstants.URL4;
 	String actualURL =driver.getCurrentUrl();
-	System.out.println("Customer bookings: " +actualURL);
+	System.out.println("Customer MyBookings: " +actualURL);
 	Assert.assertEquals(expectedURL,actualURL);
 	}
 
@@ -137,11 +139,13 @@ public class TCCustomer extends TestBase {
 	{
 	    driver.switchTo().window(winHandle);
 	}
-	
-	String expectedTitle =AutomationConstants.TITLE1;
-	String actualTitle =driver.getTitle();
-	System.out.println("Customer voucher: " +actualTitle);
-	//Assert.assertEquals(expectedTitle,actualTitle);
+	String expectedTXT =AutomationConstants.TXT5;
+	{
+		if(objCustomer.getInvoice().contains(AutomationConstants.TXT5)){
+		System.out.println("Invoice Window displays: "+expectedTXT);
+		}else{
+		System.out.println("Invoice unavailable");
+		}}
 	
 	Thread.sleep(2000);
 	
@@ -179,7 +183,7 @@ public class TCCustomer extends TestBase {
 	Assert.assertEquals(expectedURL,actualURL);
 	}
 
-@Test(priority=11, enabled=false)
+@Test(priority=11)
 	public void verifyPayPal() throws IOException, InterruptedException {
 	driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	
@@ -200,18 +204,21 @@ public class TCCustomer extends TestBase {
 	
 	String expectedURL =AutomationConstants.URL8;
 	String actualURL =driver.getCurrentUrl();
-	System.out.println("Customer Profile: " +actualURL);
+	System.out.println("Customer MyProfile: " +actualURL);
 	Assert.assertEquals(expectedURL,actualURL);
 	}
 
 @Test(priority=13)
 public void verifyAddress() throws IOException, InterruptedException {
+	JavascriptExecutor js = (JavascriptExecutor) driver;
+	js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
 	
 	objCustomer.clickAddress();
 	String address = ExcelUtility2.getCellData(18, 7);
 	objCustomer.strAddress(address);
 	objCustomer.clickUpdateProfile();
 	
+	Thread.sleep(2000);
 	String expectedTXT=AutomationConstants.TXT4;
 	System.out.println("Customer profile update: " +objCustomer.getSuccess());
 	Assert.assertEquals(expectedTXT,objCustomer.getSuccess());

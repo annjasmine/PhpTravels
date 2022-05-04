@@ -7,7 +7,7 @@ public class AutomationConstants {
 	public static final String URL2 ="https://www.phptravels.net/login/failed";
 	public static final String URL3 ="https://www.phptravels.net/account/dashboard";
 	public static final String URL4 ="https://www.phptravels.net/account/bookings";
-	public static final String TITLE1 ="Hotel Invoice - PHPTRAVELS";
+	public static final String TITLE1 ="Flight Invoice - PHPTRAVELS";
 	public static final String URL6 ="https://www.phptravels.net/account/add_funds";
 	public static final String URL7 ="https://www.phptravels.net/payment/paypal";
 	public static final String URL8 ="https://www.phptravels.net/account/profile";
@@ -29,5 +29,9 @@ public class AutomationConstants {
 	public static final String TXT3 ="Revenue Breakdown 2022";
 	public static final String URL17 ="https://www.phptravels.net/api/supplier/bookings";
 	public static final String TXT4 ="Profile updated successfully.";
-	
+	public static final String TITLE5 ="Administator Login";
+	public static final String TITLE6 ="All Bookings View";
+	public static final String TITLE7 ="paid Bookings View";
+	public static final String TXT5 ="Booking Invoice";
+	public static final String TITLE8 ="cancelled Bookings View";
 }
