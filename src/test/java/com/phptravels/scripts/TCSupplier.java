@@ -227,8 +227,5 @@ public void verifySupplierBE() throws IOException, InterruptedException {
 		    System.out.println("Confirmed bookings not incremented");
 		}
 		}
-		
-		
-
 }
 
