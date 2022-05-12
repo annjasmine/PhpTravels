@@ -8,7 +8,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
-
 public class Agent {
 
 	WebDriver driver;
@@ -75,10 +74,10 @@ public class Agent {
     @FindBy(xpath="//*[text()=' Logout']")
     private WebElement logout;
     
-    public Agent(WebDriver driver){
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
-		}
+	    	public Agent(WebDriver driver){
+			this.driver = driver;
+			PageFactory.initElements(driver, this);
+			}
 
 		public void clickAgentFE(){ 
 			 agentfe.click();
@@ -135,9 +134,6 @@ public class Agent {
 			public void enterCityName(){
 			cityname.sendKeys(Keys.RETURN);
 		}
-		//public void clickCity(){
-			//cityname.submit();
-		//}
 		public void clickSearch(){	
 			search.submit();
 		}
@@ -173,10 +169,4 @@ public class Agent {
 		public void clickLogout(){
 			 logout.click();
 		}
-		
-		
-
-
-
-
 }

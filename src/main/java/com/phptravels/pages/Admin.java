@@ -57,10 +57,10 @@ public class Admin {
     @FindBy(css="li[class='nav-item']")
     private WebElement website;
 	 
-	 public Admin(WebDriver driver){
+		public Admin(WebDriver driver){
  		this.driver = driver;
  		PageFactory.initElements(driver, this);
-			}
+		}
 
 	public void clickAdminBE(){ 
 		adminbe.click();
@@ -79,7 +79,6 @@ public class Admin {
 	public void clearPass(){
 		 adminpass.clear();
 	 }
-	
 	public void strAdminPass(String strAdminPass){
 		adminpass.sendKeys(strAdminPass);
 	}
@@ -121,6 +120,4 @@ public class Admin {
 	public void clickWebsite(){ 
 		website.click();
 	}
-	
-	
 }

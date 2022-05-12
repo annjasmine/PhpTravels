@@ -6,7 +6,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import com.phptravels.constants.AutomationConstants;
 
 public class Supplier {
 	WebDriver driver;
@@ -56,10 +60,10 @@ public class Supplier {
     private WebElement status;
  
     
-    public Supplier(WebDriver driver){
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
-		}
+	    	public Supplier(WebDriver driver){
+			this.driver = driver;
+			PageFactory.initElements(driver, this);
+			}
 
 		public void clickSupplierBE(){ 
 			supplierfe.click();
@@ -84,6 +88,20 @@ public class Supplier {
 		public String getErrorMsg() {
 		    return errormsg.getText();
 		}
+		
+		public void ErrorisDisplayed(){
+			{
+				if(errormsg2.isDisplayed()){
+				System.out.println("Supplier invalid login error is displayed");
+			}else{
+				System.out.println("Login Successful");
+			}}
+			}
+		
+		public boolean ErrorMsg2isDisplayed(){
+            return errormsg2.isDisplayed();
+		}
+		
 		public String getErrorMsg2() {
 		    return errormsg2.getText();
 		}
@@ -115,7 +133,5 @@ public class Supplier {
 			Select drop = new Select(status);
 		      drop.selectByIndex(index);
 		}
-		
-		
 }
 		

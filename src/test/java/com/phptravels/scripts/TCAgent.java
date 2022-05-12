@@ -140,7 +140,7 @@ public void verifyAFMyProfile() throws IOException, InterruptedException {
 	
 	String expectedURL =AutomationConstants.URL8;
 	String actualURL =driver.getCurrentUrl();
-	System.out.println("Agent Myprfile: " +actualURL);
+	System.out.println("Agent Myprofile: " +actualURL);
 	Assert.assertEquals(expectedURL,actualURL);
 	
 	Thread.sleep(2000);

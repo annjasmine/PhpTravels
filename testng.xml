@@ -4,8 +4,11 @@
   <test thread-count="5" name="Test">
   <parameter name="browser" value="chrome"/> 
     <classes>
-
-	<class name="com.phptravels.scripts.TCAdmin"/>
+      <class name="com.phptravels.scripts.TCCustomer"/>
+         <class name="com.phptravels.scripts.TCAgent"/>
+      <class name="com.phptravels.scripts.TCAdmin"/>
+      <class name="com.phptravels.scripts.TCSupplier"/>
+      <class name="com.phptravels.scripts.TestBase"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

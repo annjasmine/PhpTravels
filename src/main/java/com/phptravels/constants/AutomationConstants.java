@@ -34,4 +34,7 @@ public class AutomationConstants {
 	public static final String TITLE7 ="paid Bookings View";
 	public static final String TXT5 ="Booking Invoice";
 	public static final String TITLE8 ="cancelled Bookings View";
+	public static final String ERRORMESSG3 ="Please check your entries and try again.";
+	public static final String TXT6 ="Payment successfull";
+	public static final String URL18 ="https://www.phptravels.net/account/funds-success";
 }

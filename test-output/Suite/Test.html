@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>7/6/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>59/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed May 04 14:36:20 IST 2022</td>
+<td>Started on:</td><td>Tue May 10 16:19:14 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>232 seconds (232481 ms)</td>
+<tr><td>Total time:</td><td>682 seconds (682997 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,542 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.phptravels.scripts.TCAdmin.verifyConfirmedBookings()'><b>verifyConfirmedBookings</b><br>Test class: com.phptravels.scripts.TCAdmin</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;div[class=&apos;display-5&apos;]&quot;}
-  (Session info: chrome=100.0.4896.127)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-0VG4TTE&apos;, ip: &apos;172.20.16.36&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\annja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1025099c1900dcc10e8d1cbdaa79161c
-*** Element info: {Using=css selector, value=div[class=&apos;display-5&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.getText(Unknown Source)
-	at com.phptravels.pages.Admin.getCount(Admin.java:111)
-	at com.phptravels.scripts.TCAdmin.verifyConfirmedBookings(TCAdmin.java:216)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2018164030", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2018164030'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;div[class=&apos;display-5&apos;]&quot;}
-  (Session info: chrome=100.0.4896.127)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-0VG4TTE&apos;, ip: &apos;172.20.16.36&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\annja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1025099c1900dcc10e8d1cbdaa79161c
-*** Element info: {Using=css selector, value=div[class=&apos;display-5&apos;]}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.getText(Unknown Source)
-	at com.phptravels.pages.Admin.getCount(Admin.java:111)
-	at com.phptravels.scripts.TCAdmin.verifyConfirmedBookings(TCAdmin.java:216)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>30</td>
-<td>com.phptravels.scripts.TCAdmin@5f8edcc5</td></tr>
-<tr>
-<td title='com.phptravels.scripts.TCAdmin.verifyBookings()'><b>verifyBookings</b><br>Test class: com.phptravels.scripts.TCAdmin</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a[class=&apos;nav-link loadeffect&apos;]&quot;}
-  (Session info: chrome=100.0.4896.127)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-0VG4TTE&apos;, ip: &apos;172.20.16.36&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\annja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1025099c1900dcc10e8d1cbdaa79161c
-*** Element info: {Using=css selector, value=a[class=&apos;nav-link loadeffect&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
-	at com.phptravels.pages.Admin.clickBookings(Admin.java:93)
-	at com.phptravels.scripts.TCAdmin.verifyBookings(TCAdmin.java:131)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace910691117", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace910691117'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a[class=&apos;nav-link loadeffect&apos;]&quot;}
-  (Session info: chrome=100.0.4896.127)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-0VG4TTE&apos;, ip: &apos;172.20.16.36&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\annja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1025099c1900dcc10e8d1cbdaa79161c
-*** Element info: {Using=css selector, value=a[class=&apos;nav-link loadeffect&apos;]}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
-	at com.phptravels.pages.Admin.clickBookings(Admin.java:93)
-	at com.phptravels.scripts.TCAdmin.verifyBookings(TCAdmin.java:131)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>30</td>
-<td>com.phptravels.scripts.TCAdmin@5f8edcc5</td></tr>
-<tr>
-<td title='com.phptravels.scripts.TCAdmin.verifyPaidBookings()'><b>verifyPaidBookings</b><br>Test class: com.phptravels.scripts.TCAdmin</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[text()=&apos;Paid Bookings&apos;]&quot;}
-  (Session info: chrome=100.0.4896.127)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-0VG4TTE&apos;, ip: &apos;172.20.16.36&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\annja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1025099c1900dcc10e8d1cbdaa79161c
-*** Element info: {Using=xpath, value=//*[text()=&apos;Paid Bookings&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
-	at com.phptravels.pages.Admin.clickPaidBookings(Admin.java:96)
-	at com.phptravels.scripts.TCAdmin.verifyPaidBookings(TCAdmin.java:144)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1453650546", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1453650546'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[text()=&apos;Paid Bookings&apos;]&quot;}
-  (Session info: chrome=100.0.4896.127)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-0VG4TTE&apos;, ip: &apos;172.20.16.36&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\annja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1025099c1900dcc10e8d1cbdaa79161c
-*** Element info: {Using=xpath, value=//*[text()=&apos;Paid Bookings&apos;]}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
-	at com.phptravels.pages.Admin.clickPaidBookings(Admin.java:96)
-	at com.phptravels.scripts.TCAdmin.verifyPaidBookings(TCAdmin.java:144)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>30</td>
-<td>com.phptravels.scripts.TCAdmin@5f8edcc5</td></tr>
-<tr>
-<td title='com.phptravels.scripts.TCAdmin.verifydeleteBookings()'><b>verifydeleteBookings</b><br>Test class: com.phptravels.scripts.TCAdmin</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;button[class=&apos;btn btn-danger mdc-ripple-upgraded&apos;]&quot;}
-  (Session info: chrome=100.0.4896.127)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-0VG4TTE&apos;, ip: &apos;172.20.16.36&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\annja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1025099c1900dcc10e8d1cbdaa79161c
-*** Element info: {Using=css selector, value=button[class=&apos;btn btn-danger mdc-ripple-upgraded&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
-	at com.phptravels.pages.Admin.clickDeletebtn(Admin.java:108)
-	at com.phptravels.scripts.TCAdmin.verifydeleteBookings(TCAdmin.java:199)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace17792118", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace17792118'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;button[class=&apos;btn btn-danger mdc-ripple-upgraded&apos;]&quot;}
-  (Session info: chrome=100.0.4896.127)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-0VG4TTE&apos;, ip: &apos;172.20.16.36&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\annja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1025099c1900dcc10e8d1cbdaa79161c
-*** Element info: {Using=css selector, value=button[class=&apos;btn btn-danger mdc-ripple-upgraded&apos;]}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
-	at com.phptravels.pages.Admin.clickDeletebtn(Admin.java:108)
-	at com.phptravels.scripts.TCAdmin.verifydeleteBookings(TCAdmin.java:199)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>30</td>
-<td>com.phptravels.scripts.TCAdmin@5f8edcc5</td></tr>
-<tr>
-<td title='com.phptravels.scripts.TCAdmin.verifyInvoice()'><b>verifyInvoice</b><br>Test class: com.phptravels.scripts.TCAdmin</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;i[class=&apos;fa fa-file&apos;]&quot;}
-  (Session info: chrome=100.0.4896.127)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-0VG4TTE&apos;, ip: &apos;172.20.16.36&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\annja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1025099c1900dcc10e8d1cbdaa79161c
-*** Element info: {Using=css selector, value=i[class=&apos;fa fa-file&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
-	at com.phptravels.pages.Admin.clickInvoice(Admin.java:99)
-	at com.phptravels.scripts.TCAdmin.verifyInvoice(TCAdmin.java:157)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2145921383", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2145921383'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;i[class=&apos;fa fa-file&apos;]&quot;}
-  (Session info: chrome=100.0.4896.127)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-0VG4TTE&apos;, ip: &apos;172.20.16.36&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\annja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1025099c1900dcc10e8d1cbdaa79161c
-*** Element info: {Using=css selector, value=i[class=&apos;fa fa-file&apos;]}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
-	at com.phptravels.pages.Admin.clickInvoice(Admin.java:99)
-	at com.phptravels.scripts.TCAdmin.verifyInvoice(TCAdmin.java:157)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>30</td>
-<td>com.phptravels.scripts.TCAdmin@5f8edcc5</td></tr>
-<tr>
-<td title='com.phptravels.scripts.TCAdmin.verifycancelledBookings()'><b>verifycancelledBookings</b><br>Test class: com.phptravels.scripts.TCAdmin</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;div[class=&apos;card card-raised border-start border-danger border-4 cancelled_&apos;]&quot;}
-  (Session info: chrome=100.0.4896.127)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-0VG4TTE&apos;, ip: &apos;172.20.16.36&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\annja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1025099c1900dcc10e8d1cbdaa79161c
-*** Element info: {Using=css selector, value=div[class=&apos;card card-raised border-start border-danger border-4 cancelled_&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
-	at com.phptravels.pages.Admin.clickCnldBook(Admin.java:105)
-	at com.phptravels.scripts.TCAdmin.verifycancelledBookings(TCAdmin.java:187)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1294058862", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1294058862'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;div[class=&apos;card card-raised border-start border-danger border-4 cancelled_&apos;]&quot;}
-  (Session info: chrome=100.0.4896.127)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-0VG4TTE&apos;, ip: &apos;172.20.16.36&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\annja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1025099c1900dcc10e8d1cbdaa79161c
-*** Element info: {Using=css selector, value=div[class=&apos;card card-raised border-start border-danger border-4 cancelled_&apos;]}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
-	at com.phptravels.pages.Admin.clickCnldBook(Admin.java:105)
-	at com.phptravels.scripts.TCAdmin.verifycancelledBookings(TCAdmin.java:187)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>30</td>
-<td>com.phptravels.scripts.TCAdmin@5f8edcc5</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -611,40 +75,300 @@ Session ID: 1025099c1900dcc10e8d1cbdaa79161c
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.phptravels.scripts.TCAdmin.verifyInvalidABEmail()'><b>verifyInvalidABEmail</b><br>Test class: com.phptravels.scripts.TCAdmin</td>
+<td title='com.phptravels.scripts.TCAgent.verifyValidAFLogin()'><b>verifyValidAFLogin</b><br>Test class: com.phptravels.scripts.TCAgent</td>
 <td></td>
 <td>8</td>
-<td>com.phptravels.scripts.TCAdmin@5f8edcc5</td></tr>
+<td>com.phptravels.scripts.TCAgent@65b3f4a4</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCAgent.verifyInvalidAFEmail()'><b>verifyInvalidAFEmail</b><br>Test class: com.phptravels.scripts.TCAgent</td>
+<td></td>
+<td>11</td>
+<td>com.phptravels.scripts.TCAgent@65b3f4a4</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCAdmin.verifyWebsite()'><b>verifyWebsite</b><br>Test class: com.phptravels.scripts.TCAdmin</td>
+<td></td>
+<td>8</td>
+<td>com.phptravels.scripts.TCAdmin@f2ff811</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCAdmin.verifyInvalidABEmail()'><b>verifyInvalidABEmail</b><br>Test class: com.phptravels.scripts.TCAdmin</td>
+<td></td>
+<td>6</td>
+<td>com.phptravels.scripts.TCAdmin@f2ff811</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCAgent.verifyAFVisa()'><b>verifyAFVisa</b><br>Test class: com.phptravels.scripts.TCAgent</td>
+<td></td>
+<td>7</td>
+<td>com.phptravels.scripts.TCAgent@65b3f4a4</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCCustomer.verifyLogout()'><b>verifyLogout</b><br>Test class: com.phptravels.scripts.TCCustomer</td>
+<td></td>
+<td>5</td>
+<td>com.phptravels.scripts.TCCustomer@4470f8a6</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCSupplier.verifyBookings()'><b>verifyBookings</b><br>Test class: com.phptravels.scripts.TCSupplier</td>
+<td></td>
+<td>0</td>
+<td>com.phptravels.scripts.TCSupplier@568ff82</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCCustomer.verifyCustomerFE()'><b>verifyCustomerFE</b><br>Test class: com.phptravels.scripts.TCCustomer</td>
+<td></td>
+<td>10</td>
+<td>com.phptravels.scripts.TCCustomer@4470f8a6</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCAgent.verifyAFOffers()'><b>verifyAFOffers</b><br>Test class: com.phptravels.scripts.TCAgent</td>
+<td></td>
+<td>8</td>
+<td>com.phptravels.scripts.TCAgent@65b3f4a4</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCCustomer.verifyvalidCFLogin()'><b>verifyvalidCFLogin</b><br>Test class: com.phptravels.scripts.TCCustomer</td>
+<td></td>
+<td>9</td>
+<td>com.phptravels.scripts.TCCustomer@4470f8a6</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCAdmin.verifyPaidBookings()'><b>verifyPaidBookings</b><br>Test class: com.phptravels.scripts.TCAdmin</td>
+<td></td>
+<td>6</td>
+<td>com.phptravels.scripts.TCAdmin@f2ff811</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCCustomer.verifyHomePage()'><b>verifyHomePage</b><br>Test class: com.phptravels.scripts.TCCustomer</td>
+<td></td>
+<td>1</td>
+<td>com.phptravels.scripts.TCCustomer@4470f8a6</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCAgent.verifyAFBlog()'><b>verifyAFBlog</b><br>Test class: com.phptravels.scripts.TCAgent</td>
+<td></td>
+<td>7</td>
+<td>com.phptravels.scripts.TCAgent@65b3f4a4</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCAdmin.verifyInvoice()'><b>verifyInvoice</b><br>Test class: com.phptravels.scripts.TCAdmin</td>
+<td></td>
+<td>11</td>
+<td>com.phptravels.scripts.TCAdmin@f2ff811</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCCustomer.verifyAddress()'><b>verifyAddress</b><br>Test class: com.phptravels.scripts.TCCustomer</td>
+<td></td>
+<td>8</td>
+<td>com.phptravels.scripts.TCCustomer@4470f8a6</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCCustomer.verifyInvalidCFEmail()'><b>verifyInvalidCFEmail</b><br>Test class: com.phptravels.scripts.TCCustomer</td>
+<td></td>
+<td>15</td>
+<td>com.phptravels.scripts.TCCustomer@4470f8a6</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCCustomer.verifyVoucher()'><b>verifyVoucher</b><br>Test class: com.phptravels.scripts.TCCustomer</td>
+<td></td>
+<td>16</td>
+<td>com.phptravels.scripts.TCCustomer@4470f8a6</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCAdmin.verifyConfirmedBookings()'><b>verifyConfirmedBookings</b><br>Test class: com.phptravels.scripts.TCAdmin</td>
+<td></td>
+<td>11</td>
+<td>com.phptravels.scripts.TCAdmin@f2ff811</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCSupplier.verifValidSupplierBE()'><b>verifValidSupplierBE</b><br>Test class: com.phptravels.scripts.TCSupplier</td>
+<td></td>
+<td>10</td>
+<td>com.phptravels.scripts.TCSupplier@568ff82</td></tr>
 <tr>
 <td title='com.phptravels.scripts.TCAdmin.verifyAdminBE()'><b>verifyAdminBE</b><br>Test class: com.phptravels.scripts.TCAdmin</td>
 <td></td>
 <td>6</td>
-<td>com.phptravels.scripts.TCAdmin@5f8edcc5</td></tr>
+<td>com.phptravels.scripts.TCAdmin@f2ff811</td></tr>
 <tr>
-<td title='com.phptravels.scripts.TCAdmin.verifyclickWebsite()'><b>verifyclickWebsite</b><br>Test class: com.phptravels.scripts.TCAdmin</td>
+<td title='com.phptravels.scripts.TCAgent.verifyAFLogout()'><b>verifyAFLogout</b><br>Test class: com.phptravels.scripts.TCAgent</td>
+<td></td>
+<td>8</td>
+<td>com.phptravels.scripts.TCAgent@65b3f4a4</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCCustomer.verifyPaybyPayPal()'><b>verifyPaybyPayPal</b><br>Test class: com.phptravels.scripts.TCCustomer</td>
 <td></td>
 <td>6</td>
-<td>com.phptravels.scripts.TCAdmin@5f8edcc5</td></tr>
+<td>com.phptravels.scripts.TCCustomer@4470f8a6</td></tr>
 <tr>
-<td title='com.phptravels.scripts.TCAdmin.verifyHomePage()'><b>verifyHomePage</b><br>Test class: com.phptravels.scripts.TCAdmin</td>
+<td title='com.phptravels.scripts.TCAdmin.verifyBookings()'><b>verifyBookings</b><br>Test class: com.phptravels.scripts.TCAdmin</td>
+<td></td>
+<td>5</td>
+<td>com.phptravels.scripts.TCAdmin@f2ff811</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCSupplier.verifyHomePage()'><b>verifyHomePage</b><br>Test class: com.phptravels.scripts.TCSupplier</td>
 <td></td>
 <td>0</td>
-<td>com.phptravels.scripts.TCAdmin@5f8edcc5</td></tr>
+<td>com.phptravels.scripts.TCSupplier@568ff82</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCAgent.verifyCurrency()'><b>verifyCurrency</b><br>Test class: com.phptravels.scripts.TCAgent</td>
+<td></td>
+<td>10</td>
+<td>com.phptravels.scripts.TCAgent@65b3f4a4</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCAgent.verifyAFHotels()'><b>verifyAFHotels</b><br>Test class: com.phptravels.scripts.TCAgent</td>
+<td></td>
+<td>8</td>
+<td>com.phptravels.scripts.TCAgent@65b3f4a4</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCAgent.verifyAFHotelsbyCity()'><b>verifyAFHotelsbyCity</b><br>Test class: com.phptravels.scripts.TCAgent</td>
+<td></td>
+<td>13</td>
+<td>com.phptravels.scripts.TCAgent@65b3f4a4</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCCustomer.verifyInvalidCFPass()'><b>verifyInvalidCFPass</b><br>Test class: com.phptravels.scripts.TCCustomer</td>
+<td></td>
+<td>11</td>
+<td>com.phptravels.scripts.TCCustomer@4470f8a6</td></tr>
 <tr>
 <td title='com.phptravels.scripts.TCAdmin.verifyNullABLogin()'><b>verifyNullABLogin</b><br>Test class: com.phptravels.scripts.TCAdmin</td>
 <td></td>
-<td>2</td>
-<td>com.phptravels.scripts.TCAdmin@5f8edcc5</td></tr>
+<td>3</td>
+<td>com.phptravels.scripts.TCAdmin@f2ff811</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCSupplier.verifySalesOverview()'><b>verifySalesOverview</b><br>Test class: com.phptravels.scripts.TCSupplier</td>
+<td></td>
+<td>0</td>
+<td>com.phptravels.scripts.TCSupplier@568ff82</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCCustomer.verifyAddFunds()'><b>verifyAddFunds</b><br>Test class: com.phptravels.scripts.TCCustomer</td>
+<td></td>
+<td>7</td>
+<td>com.phptravels.scripts.TCCustomer@4470f8a6</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCCustomer.verifyMyBookings()'><b>verifyMyBookings</b><br>Test class: com.phptravels.scripts.TCCustomer</td>
+<td></td>
+<td>5</td>
+<td>com.phptravels.scripts.TCCustomer@4470f8a6</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCAdmin.verifydeleteBookings()'><b>verifydeleteBookings</b><br>Test class: com.phptravels.scripts.TCAdmin</td>
+<td></td>
+<td>5</td>
+<td>com.phptravels.scripts.TCAdmin@f2ff811</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCAdmin.verifyHomePage()'><b>verifyHomePage</b><br>Test class: com.phptravels.scripts.TCAdmin</td>
+<td></td>
+<td>1</td>
+<td>com.phptravels.scripts.TCAdmin@f2ff811</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCCustomer.verifyMyProfile()'><b>verifyMyProfile</b><br>Test class: com.phptravels.scripts.TCCustomer</td>
+<td></td>
+<td>4</td>
+<td>com.phptravels.scripts.TCCustomer@4470f8a6</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCSupplier.verifyFlight()'><b>verifyFlight</b><br>Test class: com.phptravels.scripts.TCSupplier</td>
+<td></td>
+<td>0</td>
+<td>com.phptravels.scripts.TCSupplier@568ff82</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCAgent.verifyNullCFLogin()'><b>verifyNullCFLogin</b><br>Test class: com.phptravels.scripts.TCAgent</td>
+<td></td>
+<td>3</td>
+<td>com.phptravels.scripts.TCAgent@65b3f4a4</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCAgent.verifyAFMyBookings()'><b>verifyAFMyBookings</b><br>Test class: com.phptravels.scripts.TCAgent</td>
+<td></td>
+<td>9</td>
+<td>com.phptravels.scripts.TCAgent@65b3f4a4</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCSupplier.verifyRevenueBD()'><b>verifyRevenueBD</b><br>Test class: com.phptravels.scripts.TCSupplier</td>
+<td></td>
+<td>0</td>
+<td>com.phptravels.scripts.TCSupplier@568ff82</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCAdmin.verifycancelledBookings()'><b>verifycancelledBookings</b><br>Test class: com.phptravels.scripts.TCAdmin</td>
+<td></td>
+<td>5</td>
+<td>com.phptravels.scripts.TCAdmin@f2ff811</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCSupplier.verifyConfirmedBookings()'><b>verifyConfirmedBookings</b><br>Test class: com.phptravels.scripts.TCSupplier</td>
+<td></td>
+<td>9</td>
+<td>com.phptravels.scripts.TCSupplier@568ff82</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCAgent.verifyAFAddFunds()'><b>verifyAFAddFunds</b><br>Test class: com.phptravels.scripts.TCAgent</td>
+<td></td>
+<td>8</td>
+<td>com.phptravels.scripts.TCAgent@65b3f4a4</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCAgent.verifyAFHome()'><b>verifyAFHome</b><br>Test class: com.phptravels.scripts.TCAgent</td>
+<td></td>
+<td>13</td>
+<td>com.phptravels.scripts.TCAgent@65b3f4a4</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCSupplier.verifySupplierBE()'><b>verifySupplierBE</b><br>Test class: com.phptravels.scripts.TCSupplier</td>
+<td></td>
+<td>12</td>
+<td>com.phptravels.scripts.TCSupplier@568ff82</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCSupplier.verifyInvalidSBPass()'><b>verifyInvalidSBPass</b><br>Test class: com.phptravels.scripts.TCSupplier</td>
+<td></td>
+<td>11</td>
+<td>com.phptravels.scripts.TCSupplier@568ff82</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCAgent.verifyAFFlights()'><b>verifyAFFlights</b><br>Test class: com.phptravels.scripts.TCAgent</td>
+<td></td>
+<td>8</td>
+<td>com.phptravels.scripts.TCAgent@65b3f4a4</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCAgent.verifyAgentFE()'><b>verifyAgentFE</b><br>Test class: com.phptravels.scripts.TCAgent</td>
+<td></td>
+<td>10</td>
+<td>com.phptravels.scripts.TCAgent@65b3f4a4</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCCustomer.verifyPayPal()'><b>verifyPayPal</b><br>Test class: com.phptravels.scripts.TCCustomer</td>
+<td></td>
+<td>27</td>
+<td>com.phptravels.scripts.TCCustomer@4470f8a6</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCCustomer.verifyNullCFLogin()'><b>verifyNullCFLogin</b><br>Test class: com.phptravels.scripts.TCCustomer</td>
+<td></td>
+<td>5</td>
+<td>com.phptravels.scripts.TCCustomer@4470f8a6</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCAgent.verifyAFTours()'><b>verifyAFTours</b><br>Test class: com.phptravels.scripts.TCAgent</td>
+<td></td>
+<td>7</td>
+<td>com.phptravels.scripts.TCAgent@65b3f4a4</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCSupplier.verifyTours()'><b>verifyTours</b><br>Test class: com.phptravels.scripts.TCSupplier</td>
+<td></td>
+<td>0</td>
+<td>com.phptravels.scripts.TCSupplier@568ff82</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCAgent.verifyAFMyProfile()'><b>verifyAFMyProfile</b><br>Test class: com.phptravels.scripts.TCAgent</td>
+<td></td>
+<td>6</td>
+<td>com.phptravels.scripts.TCAgent@65b3f4a4</td></tr>
 <tr>
 <td title='com.phptravels.scripts.TCAdmin.verifValidAdminBE()'><b>verifValidAdminBE</b><br>Test class: com.phptravels.scripts.TCAdmin</td>
 <td></td>
-<td>6</td>
-<td>com.phptravels.scripts.TCAdmin@5f8edcc5</td></tr>
+<td>11</td>
+<td>com.phptravels.scripts.TCAdmin@f2ff811</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCSupplier.verifyVisa()'><b>verifyVisa</b><br>Test class: com.phptravels.scripts.TCSupplier</td>
+<td></td>
+<td>0</td>
+<td>com.phptravels.scripts.TCSupplier@568ff82</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCSupplier.verifyInvalidSBEmail()'><b>verifyInvalidSBEmail</b><br>Test class: com.phptravels.scripts.TCSupplier</td>
+<td></td>
+<td>8</td>
+<td>com.phptravels.scripts.TCSupplier@568ff82</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCAgent.verifyInvalidAFPass()'><b>verifyInvalidAFPass</b><br>Test class: com.phptravels.scripts.TCAgent</td>
+<td></td>
+<td>9</td>
+<td>com.phptravels.scripts.TCAgent@65b3f4a4</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCSupplier.verifyNullSBLogin()'><b>verifyNullSBLogin</b><br>Test class: com.phptravels.scripts.TCSupplier</td>
+<td></td>
+<td>2</td>
+<td>com.phptravels.scripts.TCSupplier@568ff82</td></tr>
 <tr>
 <td title='com.phptravels.scripts.TCAdmin.verifyInvalidABPass()'><b>verifyInvalidABPass</b><br>Test class: com.phptravels.scripts.TCAdmin</td>
 <td></td>
-<td>5</td>
-<td>com.phptravels.scripts.TCAdmin@5f8edcc5</td></tr>
+<td>7</td>
+<td>com.phptravels.scripts.TCAdmin@f2ff811</td></tr>
+<tr>
+<td title='com.phptravels.scripts.TCAgent.verifyHomePage()'><b>verifyHomePage</b><br>Test class: com.phptravels.scripts.TCAgent</td>
+<td></td>
+<td>0</td>
+<td>com.phptravels.scripts.TCAgent@65b3f4a4</td></tr>
 </table><p>
 </body>
 </html>

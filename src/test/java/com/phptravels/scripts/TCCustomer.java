@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.safari.SafariDriver.WindowType;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -148,13 +149,7 @@ public class TCCustomer extends TestBase {
 		}}
 	
 	Thread.sleep(2000);
-	
-	for(String handle : driver.getWindowHandles()) {
-        if (!handle.equals(originalHandle)) {
-            driver.switchTo().window(handle);
-            driver.close();
-        }
-    }
+	driver.close();
     driver.switchTo().window(originalHandle);
 	}
 
@@ -186,20 +181,43 @@ public class TCCustomer extends TestBase {
 @Test(priority=11)
 	public void verifyPayPal() throws IOException, InterruptedException {
 	driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+
+	String originalHandle = driver.getWindowHandle();
+	objCustomer.clickPayPal();
 	
 	for(String winHandle : driver.getWindowHandles())
 	{
 	    driver.switchTo().window(winHandle);
 	}
 	
-	objCustomer.clickPayPal();
+	String paypalemail = ExcelUtility.getCellData(3, 4);
+	objCustomer.strPaypalEmail(paypalemail);
+	
+	objCustomer.clickNext();
+	
+	String paypalpw = ExcelUtility.getCellData(4, 4);
+	objCustomer.strPaypalPW(paypalpw);
+	
+	objCustomer.clickPaypalLogin();
+	
+	JavascriptExecutor js = (JavascriptExecutor) driver;
+	js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+	Thread.sleep(2000);
+	objCustomer.clickPaypalNow();
+	
+	driver.switchTo().window(originalHandle);
+	Thread.sleep(2000);
+	objCustomer.SuccessisDisplayed();
+	
+	String expectedURL =AutomationConstants.URL18;
+	String actualURL =driver.getCurrentUrl();
+	System.out.println("Customer Paypal Success: " +actualURL);
+	Assert.assertEquals(expectedURL,actualURL);
 	}
-
+	
 @Test(priority=12)
 	public void verifyMyProfile() throws IOException, InterruptedException {
 	
-	driver.navigate().back();
-	driver.navigate().back();
 	objCustomer.clickMyProfile();
 	
 	String expectedURL =AutomationConstants.URL8;
@@ -220,7 +238,7 @@ public void verifyAddress() throws IOException, InterruptedException {
 	
 	Thread.sleep(2000);
 	String expectedTXT=AutomationConstants.TXT4;
-	System.out.println("Customer profile update: " +objCustomer.getSuccess());
+	System.out.println("Customer Profile Update: " +objCustomer.getSuccess());
 	Assert.assertEquals(expectedTXT,objCustomer.getSuccess());
 	}
 
@@ -234,6 +252,4 @@ public void verifyLogout() throws IOException, InterruptedException {
 	System.out.println("Customer Logout: " +actualURL);
 	Assert.assertEquals(expectedURL,actualURL);
 	}
-
-
-}
+	}

@@ -35,8 +35,36 @@ public class Customer {
     @FindBy(css="i[class*='la la-arrow-right']")
     private WebElement paynow;
 
-    @FindBy(xpath="//*[@id='buttons-container']/div/div/div")
+    @FindBy(xpath="//div[@id='paypal-button']")
     private WebElement paypal;
+    
+    @FindBy(id="email")
+    private WebElement paypalemail;
+    
+    @FindBy(id="btnNext")
+    private WebElement next;
+	 
+    @FindBy(id="password")
+    private WebElement paypalpw;
+    
+    @FindBy(id="btnLogin")
+    private WebElement paypallogin;
+    
+    
+    @FindBy(id="payment-submit-btn")
+    private WebElement paypalnow;
+    
+    @FindBy(xpath="//*[text()='Payment successfull']")
+    private WebElement paysuccess;
+    
+    @FindBy(css="div[class='notifications']")
+    private WebElement paypalerror;
+    
+    @FindBy(css="div[class='btn-front']")
+    private WebElement bktoinvoice;
+    
+    @FindBy(css="a[class='yes']")
+    private WebElement yes;
     
     @FindBy(css="i[class*='la la-user mr-2 text-color-2']")
     private WebElement myprofile;
@@ -47,9 +75,7 @@ public class Customer {
     @FindBy(css="button[class='theme-btn waves-effect']")
     private WebElement updateprofile;
     
-    
     @FindBy(css="div[class='alert alert-success']")
-    //@FindBy(xpath="//*[text()=' Profile updated successfully.                                ']")
     private WebElement success;
     
     @FindBy(css="i[class*='la la-power-off mr-2 text-color-6']")
@@ -72,27 +98,21 @@ public class Customer {
 	public void strCustEmail(String strCustEmail){
 		custemail.sendKeys(strCustEmail);
 	}
-	
 	public void strCustPass(String strCustPass){
 		custpass.sendKeys(strCustPass);
 	}
-	
 	public WebElement getEmail() {
 	return custemail;
 	}
-	
 	public void setEmail(WebElement custemail) {
 	this.custemail=custemail;
 	}
-	
 	public WebElement getPassword() {
 	return custpass;
 	}
-	
 	public void setPassword(WebElement custpass) {
 	this.custpass=custpass;
 	}
-	
 	 public void clickMyBookings(){
 		 mybookings.click();
 	 }
@@ -111,6 +131,34 @@ public class Customer {
 	 public void clickPayPal(){
 		 paypal.click();
 	 }
+	 public void strPaypalEmail(String strPaypalEmail){
+			paypalemail.sendKeys(strPaypalEmail);
+	 }
+	 public void clickNext(){
+		 next.click();
+	 }
+	public void strPaypalPW(String strPaypalPass){
+		paypalpw.sendKeys(strPaypalPass);
+	 }
+	public void clickPaypalLogin(){ 
+		 paypallogin.click();
+	 }
+	public void clickPaypalNow(){ 
+		 paypalnow.click();
+	 }
+	public boolean SuccessisDisplayed(){
+        return paysuccess.isDisplayed();
+	}
+	
+	public String getPaySucccess() {
+	    return paysuccess.getText();
+	 }
+	 public void clickBktoInvoice(){
+		 bktoinvoice.click();
+	 }
+	 public void clickYes(){
+		 yes.click();
+	 }
 	 public void clickMyProfile(){
 		 myprofile.click();
 	 }
@@ -126,7 +174,6 @@ public class Customer {
 	 public String getSuccess(){
 		return success.getText();
 	 }
-	 
 	 public void clickLogout(){
 		 logout.click();
 	 }
