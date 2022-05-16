@@ -4,6 +4,27 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="com.phptravels.scripts.TCAdmin">
+        <methods>
+          <include name="verifyHomePage"/>
+          <include name="verifyInvalidABEmail"/>
+          <include name="quitBrowser"/>
+          <include name="verifValidAdminBE"/>
+          <include name="onSetup"/>
+          <include name="verifyNullABLogin"/>
+          <include name="verifyInvalidABPass"/>
+          <include name="verifyBookings"/>
+          <include name="verifyInvoice"/>
+          <include name="verifyWebsite"/>
+          <include name="closeBrowser"/>
+          <include name="verifyConfirmedBookings"/>
+          <include name="verifycancelledBookings"/>
+          <include name="verifydeleteBookings"/>
+          <include name="tearDown"/>
+          <include name="verifyAdminBE"/>
+          <include name="verifyPaidBookings"/>
+        </methods>
+      </class> <!-- com.phptravels.scripts.TCAdmin -->
       <class name="com.phptravels.scripts.TCAgent">
         <methods>
           <include name="verifyNullCFLogin"/>
@@ -31,6 +52,26 @@
           <include name="verifyAFTours"/>
         </methods>
       </class> <!-- com.phptravels.scripts.TCAgent -->
+      <class name="com.phptravels.scripts.TCCustomer">
+        <methods>
+          <include name="verifyAddFunds"/>
+          <include name="verifyInvalidCFEmail"/>
+          <include name="quitBrowser"/>
+          <include name="verifyMyBookings"/>
+          <include name="verifyNullCFLogin"/>
+          <include name="onSetup"/>
+          <include name="verifyAddress"/>
+          <include name="verifyInvalidCFPass"/>
+          <include name="verifyLogout"/>
+          <include name="verifyPaybyPayPal"/>
+          <include name="closeBrowser"/>
+          <include name="verifyVoucher"/>
+          <include name="verifyPayPal"/>
+          <include name="verifyMyProfile"/>
+          <include name="verifyvalidCFLogin"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.phptravels.scripts.TCCustomer -->
       <class name="com.phptravels.scripts.TCSupplier">
         <methods>
           <include name="quitBrowser"/>
@@ -52,40 +93,6 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.phptravels.scripts.TCSupplier -->
-      <class name="com.phptravels.scripts.TCAdmin">
-        <methods>
-          <include name="verifyHomePage"/>
-          <include name="verifyInvalidABEmail"/>
-          <include name="quitBrowser"/>
-          <include name="verifValidAdminBE"/>
-          <include name="onSetup"/>
-          <include name="verifyNullABLogin"/>
-          <include name="verifyInvalidABPass"/>
-          <include name="verifyBookings"/>
-          <include name="verifyInvoice"/>
-          <include name="verifyWebsite"/>
-          <include name="closeBrowser"/>
-          <include name="verifyConfirmedBookings"/>
-          <include name="verifycancelledBookings"/>
-          <include name="verifydeleteBookings"/>
-          <include name="tearDown"/>
-          <include name="verifyAdminBE"/>
-          <include name="verifyPaidBookings"/>
-        </methods>
-      </class> <!-- com.phptravels.scripts.TCAdmin -->
-      <class name="com.phptravels.scripts.TCCustomer">
-        <methods>
-          <include name="verifyLogout"/>
-          <include name="verifyPaybyPayPal"/>
-          <include name="quitBrowser"/>
-          <include name="closeBrowser"/>
-          <include name="onSetup"/>
-          <include name="verifyAddress"/>
-          <include name="verifyPayPal"/>
-          <include name="verifyMyProfile"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.phptravels.scripts.TCCustomer -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

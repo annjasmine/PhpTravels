@@ -156,7 +156,7 @@ Supplier objSupplier;
 			
 			String expectedTXT=AutomationConstants.TXT3;
 			Assert.assertEquals(expectedTXT,objSupplier.getRevenue());
-			System.out.println("Supplier FE: " +objSupplier.getRevenue()+" is displayed.");
+			System.out.println("Supplier BE: " +objSupplier.getRevenue()+" is displayed.");
 			}
 		@Test(priority=9)
 		public void verifyTours() throws IOException, InterruptedException {
