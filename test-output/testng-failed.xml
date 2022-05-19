@@ -4,92 +4,12 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.phptravels.scripts.TCAdmin">
-        <methods>
-          <include name="verifyHomePage"/>
-          <include name="verifyInvalidABEmail"/>
-          <include name="quitBrowser"/>
-          <include name="verifValidAdminBE"/>
-          <include name="onSetup"/>
-          <include name="verifyNullABLogin"/>
-          <include name="verifyInvalidABPass"/>
-          <include name="verifyBookings"/>
-          <include name="verifyInvoice"/>
-          <include name="verifyWebsite"/>
-          <include name="closeBrowser"/>
-          <include name="verifyConfirmedBookings"/>
-          <include name="verifycancelledBookings"/>
-          <include name="verifydeleteBookings"/>
-          <include name="tearDown"/>
-          <include name="verifyAdminBE"/>
-          <include name="verifyPaidBookings"/>
-        </methods>
-      </class> <!-- com.phptravels.scripts.TCAdmin -->
-      <class name="com.phptravels.scripts.TCAgent">
-        <methods>
-          <include name="verifyNullCFLogin"/>
-          <include name="quitBrowser"/>
-          <include name="onSetup"/>
-          <include name="verifyInvalidAFPass"/>
-          <include name="verifyValidAFLogin"/>
-          <include name="verifyAFVisa"/>
-          <include name="verifyAFLogout"/>
-          <include name="verifyAFHome"/>
-          <include name="verifyHomePage"/>
-          <include name="verifyAFBlog"/>
-          <include name="closeBrowser"/>
-          <include name="verifyAFAddFunds"/>
-          <include name="verifyAFMyBookings"/>
-          <include name="verifyAgentFE"/>
-          <include name="verifyAFOffers"/>
-          <include name="verifyInvalidAFEmail"/>
-          <include name="verifyCurrency"/>
-          <include name="verifyAFFlights"/>
-          <include name="tearDown"/>
-          <include name="verifyAFHotels"/>
-          <include name="verifyAFHotelsbyCity"/>
-          <include name="verifyAFMyProfile"/>
-          <include name="verifyAFTours"/>
-        </methods>
-      </class> <!-- com.phptravels.scripts.TCAgent -->
-      <class name="com.phptravels.scripts.TCCustomer">
-        <methods>
-          <include name="verifyAddFunds"/>
-          <include name="verifyInvalidCFEmail"/>
-          <include name="quitBrowser"/>
-          <include name="verifyMyBookings"/>
-          <include name="verifyNullCFLogin"/>
-          <include name="onSetup"/>
-          <include name="verifyAddress"/>
-          <include name="verifyInvalidCFPass"/>
-          <include name="verifyLogout"/>
-          <include name="verifyPaybyPayPal"/>
-          <include name="closeBrowser"/>
-          <include name="verifyVoucher"/>
-          <include name="verifyPayPal"/>
-          <include name="verifyMyProfile"/>
-          <include name="verifyvalidCFLogin"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.phptravels.scripts.TCCustomer -->
       <class name="com.phptravels.scripts.TCSupplier">
         <methods>
           <include name="quitBrowser"/>
-          <include name="verifyVisa"/>
+          <include name="closeBrowser"/>
           <include name="onSetup"/>
           <include name="verifyConfirmedBookings"/>
-          <include name="verifyBookings"/>
-          <include name="verifyTours"/>
-          <include name="closeBrowser"/>
-          <include name="verifyFlight"/>
-          <include name="verifValidSupplierBE"/>
-          <include name="verifyInvalidSBEmail"/>
-          <include name="verifyInvalidSBPass"/>
-          <include name="verifyHomePage"/>
-          <include name="verifyNullSBLogin"/>
-          <include name="verifyRevenueBD"/>
-          <include name="verifySalesOverview"/>
-          <include name="verifySupplierBE"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.phptravels.scripts.TCSupplier -->

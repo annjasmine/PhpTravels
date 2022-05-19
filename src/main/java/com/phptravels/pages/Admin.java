@@ -33,11 +33,11 @@ public class Admin {
     @FindBy(xpath="//*[text()='Paid Bookings']")
     private WebElement paidbookings;  
 
-	 @FindBy(css="i[class='fa fa-file']")
-	 private WebElement voucher;
+    @FindBy(css="i[class='fa fa-file']")
+	private WebElement voucher;
 	 
-	 @FindBy(xpath="//*[text()='Booking Invoice                            ']")
-	 private WebElement vouchertitle;
+    @FindBy(xpath="//*[text()='Booking Invoice                            ']")
+	private WebElement vouchertitle;
 	 
 	@FindBy(css="div[class='card card-raised border-start border-danger border-4 cancelled_']")
 	private WebElement cancelledbooking;

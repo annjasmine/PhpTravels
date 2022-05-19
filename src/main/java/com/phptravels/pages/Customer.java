@@ -113,71 +113,70 @@ public class Customer {
 	public void setPassword(WebElement custpass) {
 	this.custpass=custpass;
 	}
-	 public void clickMyBookings(){
+	public void clickMyBookings(){
 		 mybookings.click();
-	 }
-	 public void clickVoucher(){
+	}
+	public void clickVoucher(){
 		 voucher.click();
-	 }
-	 public void clickAddFunds(){
+	}
+	public void clickAddFunds(){
 		 addfunds.click();
-	 }
-	 public void clickPayPalBtn(){
+	}
+	public void clickPayPalBtn(){
 		 paypalbtn.click();
-	 }
-	 public void clickPayNow(){
+	}
+	public void clickPayNow(){
 		 paynow.click();
-	 }
-	 public void clickPayPal(){
+	}
+	public void clickPayPal(){
 		 paypal.click();
-	 }
-	 public void strPaypalEmail(String strPaypalEmail){
+	}
+	public void strPaypalEmail(String strPaypalEmail){
 			paypalemail.sendKeys(strPaypalEmail);
-	 }
-	 public void clickNext(){
+	}
+	public void clickNext(){
 		 next.click();
-	 }
+	}
 	public void strPaypalPW(String strPaypalPass){
 		paypalpw.sendKeys(strPaypalPass);
-	 }
+	}
 	public void clickPaypalLogin(){ 
 		 paypallogin.click();
-	 }
+	}
 	public void clickPaypalNow(){ 
 		 paypalnow.click();
-	 }
+	}
 	public boolean SuccessisDisplayed(){
         return paysuccess.isDisplayed();
 	}
-	
 	public String getPaySucccess() {
 	    return paysuccess.getText();
-	 }
-	 public void clickBktoInvoice(){
+	}
+	public void clickBktoInvoice(){
 		 bktoinvoice.click();
-	 }
-	 public void clickYes(){
-		 yes.click();
-	 }
-	 public void clickMyProfile(){
+	}
+	public void clickYes(){
+	    yes.click();
+	}
+	public void clickMyProfile(){
 		 myprofile.click();
-	 }
-	 public void clickAddress(){
+	}
+	public void clickAddress(){
 		 address.clear();
-	 } 
-	 public void strAddress(String strAddress){
+	} 
+	public void strAddress(String strAddress){
 			address.sendKeys(strAddress);
-	 }
-	 public void clickUpdateProfile(){
+	}
+	public void clickUpdateProfile(){
 		 updateprofile.submit();
-	 }
-	 public String getSuccess(){
+	}
+	public String getSuccess(){
 		return success.getText();
-	 }
-	 public void clickLogout(){
+	}
+	public void clickLogout(){
 		 logout.click();
-	 }
-	 public String getInvoice() {
+	}
+	public String getInvoice() {
 		    return vouchertitle.getText();
-	 }
+	}
 }

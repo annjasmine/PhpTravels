@@ -19,8 +19,8 @@ public class ExcelUtility {
 	        // Open the Excel file
 	    	 FileInputStream ExcelFile = new FileInputStream(System.getProperty("user.dir") + "/src/main/resources"
 	                 + "/TestDocuments.xlsx");
-	excelWBook = new XSSFWorkbook(ExcelFile);
-	        excelWSheet = excelWBook.getSheetAt(4);
-	        return excelWSheet.getRow(RowNum).getCell(ColNum).getStringCellValue();
+	    	 excelWBook = new XSSFWorkbook(ExcelFile);
+	    	 excelWSheet = excelWBook.getSheetAt(4);
+	       	return excelWSheet.getRow(RowNum).getCell(ColNum).getStringCellValue();
 	    }
 	}

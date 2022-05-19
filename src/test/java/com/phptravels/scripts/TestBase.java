@@ -42,9 +42,9 @@ public class TestBase {
         } catch (IOException e) {
             e.printStackTrace();
         }
-}
-			@Parameters("browser") 
-			@BeforeTest
+    	}
+		@Parameters("browser") 
+		@BeforeTest
 			public void onSetup(String browserName) {
     	        TestBase(); 
     	       
@@ -61,12 +61,12 @@ public class TestBase {
     	        driver.get(prop.getProperty("url"));
     	        driver.manage().window().maximize();
     		    }
-            @AfterMethod
+		@AfterMethod
 		    public void tearDown(ITestResult iTestResult) throws IOException {
 		        if (iTestResult.FAILURE == iTestResult.getStatus()) {
 		            takeScreenshot(iTestResult.getName());
 		        }
-		    }
+            	}
             public String takeScreenshot(String name) throws IOException {
 		    	
 		       String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
@@ -85,10 +85,10 @@ public class TestBase {
         	
         	driver.get(prop.getProperty("url"));
         	driver.manage().window().maximize();
-         }
-	@AfterTest
-				public void quitBrowser() throws IOException {
-				//driver.quit();
-				}
+         	}
+         @AfterTest
+			public void quitBrowser() throws IOException {
+			driver.quit();
+			}
 	
 }

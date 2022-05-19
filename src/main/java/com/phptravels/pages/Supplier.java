@@ -88,12 +88,11 @@ public class Supplier {
 		public String getErrorMsg() {
 		    return errormsg.getText();
 		}
-		
 		public void ErrorisDisplayed(){
 			{
 				if(errormsg2.isDisplayed()){
 				System.out.println("Supplier invalid login error is displayed");
-			}else{
+			}	else{
 				System.out.println("Login Successful");
 			}}
 			}
@@ -101,7 +100,6 @@ public class Supplier {
 		public boolean ErrorMsg2isDisplayed(){
             return errormsg2.isDisplayed();
 		}
-		
 		public String getErrorMsg2() {
 		    return errormsg2.getText();
 		}

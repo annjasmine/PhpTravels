@@ -137,7 +137,6 @@ public class Agent {
 		public void clickSearch(){	
 			search.submit();
 		}
-		
 		public void clickflights(){
 			flights.click();
 		}
